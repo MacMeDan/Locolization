@@ -1,6 +1,6 @@
 #  Localize
 
-The purpose of this project is to help with managing locolized strings in a way that does not make your eyes bleed when you read the code.
+The purpose of this project is to help with managing Localized strings in a way that does not make your eyes bleed when you read the code.
 
 ## Usage
 
