@@ -1,0 +1,17 @@
+/* 
+  Locolisation.strings
+  Locoliziation
+
+  Created by Dan Leonard on 3/5/18.
+  Copyright © 2018 MacMeDan. All rights reserved.
+*/
+
+
+
+"AREA_OPTION_ALL_DISPLAY" = "All Areas";
+
+/* Text for legend */
+"AUTO_SOURCE_STATUS_DISPLAY_DESCRIPTION_FAIL" = "Component is unacceptable";
+
+/* Text for legend */
+"AUTO_SOURCE_STATUS_DISPLAY_DESCRIPTION_FIXED" = "Component has been acceptably repaired";
