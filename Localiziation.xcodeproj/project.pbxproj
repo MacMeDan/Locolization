@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C9F99E6204DF4180083E662 /* Locoliziation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Locoliziation; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C206F84204F202D001BEDFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		2C206F85204F2064001BEDFF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2C9F99E6204DF4180083E662 /* Localiziation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Localiziation; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9F99E9204DF4180083E662 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2C9F99F0204DF4400083E662 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C9F99F1204DF4550083E662 /* UpdateLocalisedStringKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateLocalisedStringKeys.swift; sourceTree = "<group>"; };
-		2C9F99F3204DF4C10083E662 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = /Users/macmedan/Desktop/Locoliziation/Locoliziation/Localizable.strings; sourceTree = "<absolute>"; };
 		2C9F99F4204DF4D00083E662 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		2C9F99F9204E005D0083E662 /* oldFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = oldFile.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +47,7 @@
 		2C9F99DD204DF4180083E662 = {
 			isa = PBXGroup;
 			children = (
-				2C9F99E8204DF4180083E662 /* Locoliziation */,
+				2C9F99E8204DF4180083E662 /* Localiziation */,
 				2C9F99E7204DF4180083E662 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,30 +55,30 @@
 		2C9F99E7204DF4180083E662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C9F99E6204DF4180083E662 /* Locoliziation */,
+				2C9F99E6204DF4180083E662 /* Localiziation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C9F99E8204DF4180083E662 /* Locoliziation */ = {
+		2C9F99E8204DF4180083E662 /* Localiziation */ = {
 			isa = PBXGroup;
 			children = (
 				2C9F99E9204DF4180083E662 /* main.swift */,
-				2C9F99F0204DF4400083E662 /* README.md */,
 				2C9F99F1204DF4550083E662 /* UpdateLocalisedStringKeys.swift */,
-				2C9F99F3204DF4C10083E662 /* Localizable.strings */,
+				2C206F84204F202D001BEDFF /* README.md */,
+				2C206F85204F2064001BEDFF /* Localizable.strings */,
 				2C9F99F4204DF4D00083E662 /* Resources.swift */,
 				2C9F99F9204E005D0083E662 /* oldFile.strings */,
 			);
-			path = Locoliziation;
+			path = Localiziation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C9F99E5204DF4180083E662 /* Locoliziation */ = {
+		2C9F99E5204DF4180083E662 /* Localiziation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C9F99ED204DF4180083E662 /* Build configuration list for PBXNativeTarget "Locoliziation" */;
+			buildConfigurationList = 2C9F99ED204DF4180083E662 /* Build configuration list for PBXNativeTarget "Localiziation" */;
 			buildPhases = (
 				2C9F99E2204DF4180083E662 /* Sources */,
 				2C9F99E3204DF4180083E662 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Locoliziation;
+			name = Localiziation;
 			productName = Locoliziation;
-			productReference = 2C9F99E6204DF4180083E662 /* Locoliziation */;
+			productReference = 2C9F99E6204DF4180083E662 /* Localiziation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C9F99E1204DF4180083E662 /* Build configuration list for PBXProject "Locoliziation" */;
+			buildConfigurationList = 2C9F99E1204DF4180083E662 /* Build configuration list for PBXProject "Localiziation" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C9F99E5204DF4180083E662 /* Locoliziation */,
+				2C9F99E5204DF4180083E662 /* Localiziation */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C9F99E1204DF4180083E662 /* Build configuration list for PBXProject "Locoliziation" */ = {
+		2C9F99E1204DF4180083E662 /* Build configuration list for PBXProject "Localiziation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C9F99EB204DF4180083E662 /* Debug */,
@@ -277,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C9F99ED204DF4180083E662 /* Build configuration list for PBXNativeTarget "Locoliziation" */ = {
+		2C9F99ED204DF4180083E662 /* Build configuration list for PBXNativeTarget "Localiziation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C9F99EE204DF4180083E662 /* Debug */,
