@@ -9,6 +9,11 @@
 
 import Foundation
 
+var pathToProject: String
+var sourceFilePath: String
+var destinationFilePath: String = "Localiziation/temp.strings"
+var resourceFilePath: String
+
 func getValue() {
     let value = needCustomKey[0]
     print("""
@@ -22,12 +27,28 @@ func getValue() {
     getValue()
 }
 
+// MARK: Setup
+print("""
+    Please enter the path to your project.
+    """, terminator: "")
+pathToProject = readLine()!
+
+print("""
+    Please enter the path from your project base directory to your destination file.
+    """, terminator: "")
+sourceFilePath = readLine()!
+
+print("""
+    Please enter the path from your project base directory to your to your Resource file.
+    """, terminator: "")
+resourceFilePath = readLine()!
+
+// MARK: Options
 print("""
     Please select an option:
     1) Preview generated key
     2) Generate Resources Enum
     3) Add entry to Locolized
-    4) write Old
 
     """, terminator: "")
 let answer = readLine()!
@@ -38,7 +59,7 @@ if answer == "1" {
 
     """, terminator: "")
     let newString = readLine()!
-    getCustomKeyForString(newString)
+    print(newString.camelCased)
 }
 
 if answer == "2" {
@@ -53,11 +74,6 @@ if answer == "3" {
     let newString = readLine()!
     locolizeNewString(newString)
 }
-
-if answer == "4" {
-    writeOld()
-}
-
 
 if needCustomKey.count > 0 {
     getValue()
