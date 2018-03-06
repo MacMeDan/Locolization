@@ -9,10 +9,10 @@
 
 import Foundation
 
-var pathToProject: String
-var sourceFilePath: String
-var destinationFilePath: String = "Localiziation/temp.strings"
-var resourceFilePath: String
+var pathToProject: String = "/Users/macmedan/Swift/auto-source-inspection/"
+var sourceFilePath: String = "InspectionTool/Localizable.strings"
+var destinationFilePath: String = "InspectionTool/temp.strings"
+var resourceFilePath: String = "InspectionTool/Resources.swift"
 
 func getValue() {
     let value = needCustomKey[0]
@@ -27,21 +27,21 @@ func getValue() {
     getValue()
 }
 
-// MARK: Setup
-print("""
-    Please enter the path to your project.
-    """, terminator: "")
-pathToProject = readLine()!
-
-print("""
-    Please enter the path from your project base directory to your destination file.
-    """, terminator: "")
-sourceFilePath = readLine()!
-
-print("""
-    Please enter the path from your project base directory to your to your Resource file.
-    """, terminator: "")
-resourceFilePath = readLine()!
+//// MARK: Setup
+//print("""
+//    Please enter the path to your project.
+//    """, terminator: "")
+//pathToProject = readLine()!
+//
+//print("""
+//    Please enter the path from your project base directory to your destination file.
+//    """, terminator: "")
+//sourceFilePath = readLine()!
+//
+//print("""
+//    Please enter the path from your project base directory to your to your Resource file.
+//    """, terminator: "")
+//resourceFilePath = readLine()!
 
 // MARK: Options
 print("""
@@ -63,7 +63,7 @@ if answer == "1" {
 }
 
 if answer == "2" {
-    generateResourcesEnum()
+    generateResourceEnum()
 }
 
 if answer == "3" {

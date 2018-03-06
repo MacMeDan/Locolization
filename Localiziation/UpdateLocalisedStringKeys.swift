@@ -20,15 +20,15 @@ func locolizeNewString( _ newString: String, newKey: String? = nil) {
     if allValues.contains(newString) { needCustomKey.append(newString) }
     allValues.append(newString)
     allValues = allValues.sorted().flatMap{ $0.camelCased }
-    newData = allValues.flatMap{ getEntry(key: newKey, value: $0) }.joined(separator: "\n")
+    newData = allValues.flatMap{ getEntry(key: newKey, value: $0) }.joined()
 
     // Chain write data and generate enum to give an updated version of both files with new entry added.
-    writeData(newData){ _ in
-        generateResourceEnum(with: allValues)
+    writeData(newData, path: sourceFilePath.components(separatedBy: "/")) { _ in
+        generateResourceEnum(allValues)
     }
 }
 
-func writeData( _ newData: String, path: [String] = sourceFilePath.components(separatedBy: "/"), completion:((String) -> Void)) {
+func writeData( _ newData: String, path: [String], completion:((String) -> Void)) {
     do {
         try newData.write(to: projectDirectory.appendingPathComponents(path), atomically: true, encoding: .utf8)
     } catch {

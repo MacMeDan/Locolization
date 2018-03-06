@@ -7,11 +7,12 @@
 //
 
 import Foundation
-func generateResourceEnum(with data: [String]?) {
+func generateResourceEnum( _ data: [String]? = nil) {
     var newValues: [String]
     if let data = data {
         newValues = data.sorted()
     } else {
+        print(projectDirectory.appendingPathComponents(destinationFilePath.components(separatedBy: "/")).absoluteString)
         newValues = Array(Set(NSDictionary(contentsOf: projectDirectory.appendingPathComponents(destinationFilePath.components(separatedBy: "/")))!.allValues as! [String]))
         newValues = newValues.sorted().flatMap{ $0.camelCased }
     }
