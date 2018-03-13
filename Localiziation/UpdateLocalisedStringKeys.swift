@@ -16,15 +16,14 @@ func locolizeNewString( _ newString: String, newKey: String? = nil) {
     var newData: String
     let componets = sourceFilePath.components(separatedBy: "/")
     var allValues = Array(Set(NSDictionary(contentsOf: projectDirectory.appendingPathComponents(componets))!.allValues as! [String]))
-
     if allValues.contains(newString) { needCustomKey.append(newString) }
     allValues.append(newString)
     allValues = allValues.sorted().flatMap{ $0.camelCased }
     newData = allValues.flatMap{ getEntry(key: newKey, value: $0) }.joined()
 
     // Chain write data and generate enum to give an updated version of both files with new entry added.
-    writeData(newData, path: sourceFilePath.components(separatedBy: "/")) { _ in
-        generateResourceEnum(allValues)
+    writeData(newData, path: destinationFilePath.components(separatedBy: "/")) { _ in
+        generateResourceEnum()
     }
 }
 
@@ -43,3 +42,4 @@ func getEntry(key: String? = nil, value rawValue: String) -> String? {
         return "\n\"\(rawValue.camelCased)\" = \"\(rawValue.exscapeNewLine)\";\n"
     }
 }
+

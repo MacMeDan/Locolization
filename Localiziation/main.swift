@@ -9,10 +9,10 @@
 
 import Foundation
 
-var pathToProject: String = "/Users/macmedan/Swift/auto-source-inspection/"
-var sourceFilePath: String = "InspectionTool/Localizable.strings"
-var destinationFilePath: String = "InspectionTool/temp.strings"
-var resourceFilePath: String = "InspectionTool/Resources.swift"
+var pathToProject: String = "/Users/macmedan/Swift/Locolization/"
+var sourceFilePath: String = "Localiziation/Localizable.strings"
+var destinationFilePath: String = "Localiziation/temp.strings"
+var resourceFilePath: String = "Localiziation/Resources.swift"
 
 func getValue() {
     let value = needCustomKey[0]
@@ -25,6 +25,17 @@ func getValue() {
     locolizeNewString(value, newKey: newKey)
     needCustomKey.removeFirst()
     getValue()
+}
+
+func error() -> String {
+    print("""
+        No `:` found please try again
+        """, terminator: "")
+    return readLine()!
+}
+
+func containsColin(_ string: String) -> Bool {
+    return string.contains(":")
 }
 
 //// MARK: Setup
@@ -46,9 +57,10 @@ func getValue() {
 // MARK: Options
 print("""
     Please select an option:
-    1) Preview generated key
-    2) Generate Resources Enum
-    3) Add entry to Locolized
+    1) Add new entry with auto gernerated key
+    2) Add new entry with specified key
+    3) Generate Resources
+    4) Generate Strings
 
     """, terminator: "")
 let answer = readLine()!
@@ -59,23 +71,36 @@ if answer == "1" {
 
     """, terminator: "")
     let newString = readLine()!
-    print(newString.camelCased)
-}
-
-if answer == "2" {
-    generateResourceEnum()
-}
-
-if answer == "3" {
-    print("""
-    Please enter the string you would like to locolize:
-
-    """, terminator: "")
-    let newString = readLine()!
+    print("using Key: \(newString.camelCased)")
     locolizeNewString(newString)
 }
 
-if needCustomKey.count > 0 {
-    getValue()
+if answer == "2" {
+    print("""
+    Please enter the Key : Value you would like to add:
+
+    """, terminator: "")
+    let newString = readLine()!
+
+    if containsColin(newString){
+        let componets = newString.components(separatedBy: ":")
+        guard componets.count == 2 else {
+            fatalError("Should only be 1 colin in input.")
+        }
+        let newKey = componets.first
+        let newValue = componets.last!
+        locolizeNewString(newValue, newKey: newKey)
+    }
+
 }
+
+if answer == "3" {
+    generateResourceEnum()
+}
+
+if answer == "4" {
+    generateNewStringsFile()
+}
+
+
 

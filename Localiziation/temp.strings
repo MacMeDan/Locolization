@@ -1,7 +1,650 @@
-/* 
-  temp.strings
-  Locoliziation
 
-  Created by Dan Leonard on 3/5/18.
-  Copyright © 2018 MacMeDan. All rights reserved.
-*/
+"clean" = "Clean";
+
+"editBillOfSale" = "Edit Bill of Sale";
+
+"supplierTelephone" = "Supplier Telephone";
+
+"noResultsFound" = "No Results Found";
+
+"thereCanOnlyBe10VehiclesPerShipment" = "There can only be 10 vehicles per shipment";
+
+"phoneNumberMustBeNoMoreThan16Digits" = "Phone Number must be no more than 16 digits";
+
+"back" = "Back";
+
+"vehicleApproved" = "Vehicle Approved";
+
+"displacement" = "Displacement";
+
+"paymentRequested" = "Payment Requested";
+
+"noOfUnits" = "No. of Units";
+
+"clearSearchAndFilter" = "Clear search and filter";
+
+"selectRegion" = "Select Region";
+
+"dealerPurchaseAgreementTerms" = "Dealer Purchase Agreement Terms";
+
+"sellerVerifiesVehicleHasBeenRepairedToTheManufacturersSpecificationsAnd" = "Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order.";
+
+"submitBospmt" = "Submit BOS/PMT";
+
+"selectStatus" = "Select Status";
+
+"inspectionPassed" = "Inspection Passed";
+
+"retailLocation" = "Retail Location";
+
+"actualMileage" = "Actual Mileage";
+
+"state" = "State";
+
+"cancel" = "Cancel";
+
+"edit" = "Edit";
+
+"bosAwaitingSignature" = "BOS Awaiting Signature";
+
+"make" = "Make";
+
+"quickPay" = "Quick Pay";
+
+"applyFilters" = "Apply Filters";
+
+"retry" = "Retry";
+
+"yourChangesWillBeLost" = "Your changes will be lost";
+
+"phone" = "Phone";
+
+"city" = "City";
+
+"editTitle" = "Edit Title";
+
+"bosCompleted" = "BOS Completed";
+
+"componentNeedsFurtherReview" = "Component needs further review";
+
+"ok" = "OK";
+
+"hailDamage" = "Hail Damage";
+
+"editVehicleInformation" = "Edit Vehicle Information";
+
+"loadingVehicles" = "Loading Vehicles...";
+
+"areYouSure" = "Are you sure?";
+
+"area" = "Area";
+
+"unreject" = "Unreject";
+
+"resendBillOfSaleForSignatures" = "Resend Bill of Sale for Signatures";
+
+"resendForSignatures" = "Resend for Signatures";
+
+"searchForAVehicleUsingTheFullVinOrLast8" = "Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually.";
+
+"request" = "Request";
+
+"fullPurchase" = "Full Purchase";
+
+"notes" = "Notes";
+
+"engineSize" = "Engine Size";
+
+"shipmentStatus" = "Shipment Status";
+
+"arrived" = "Arrived";
+
+"reject" = "Reject";
+
+"bodyStyle" = "Body Style";
+
+"changingTheAreaWillRemoveAllVehiclesFromThisShipment" = "Changing the area will remove all vehicles from this shipment";
+
+"sellerAcknowledgesThatIfVehicleDoesNotSellAfter120Days" = "Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense.";
+
+"password" = "Password";
+
+"titleClassification" = "Title Classification";
+
+"titleHistory" = "Title history";
+
+"inspectionSummary" = "Inspection Summary";
+
+"arrivedDate" = "Arrived Date";
+
+"driverName" = "Driver Name";
+
+"drivetrain" = "Drivetrain";
+
+"confirm" = "Confirm";
+
+"componentIsUnacceptable" = "Component is unacceptable";
+
+"insuranceClassification" = "Insurance Classification";
+
+"initial" = "Initial";
+
+"needsAttention" = "Needs Attention";
+
+"lastModified" = "Last Modified";
+
+"shipmentInformation" = "Shipment Information";
+
+"dealerAddress" = "Dealer Address";
+
+"requestPayment" = "Request Payment";
+
+"unableToLogIn" = "Unable to log in";
+
+"denotesPreferredAccount" = "* denotes preferred account";
+
+"badCredentials" = "Bad Credentials";
+
+"editShipmentVehicles" = "Edit Shipment Vehicles";
+
+"shipmentDetails" = "Shipment Details";
+
+"automatic" = "Automatic";
+
+"otherClassification" = "Other Classification";
+
+"addressLine2" = "Address Line 2";
+
+"toReinspectAsmShop" = "To Reinspect @ ASM Shop";
+
+"driver" = "Driver";
+
+"noInspectionsMatchedTheSpecifiedCriteria" = "No inspections matched the specified criteria";
+
+"reinspectionCount" = "Reinspection Count";
+
+"year" = "Year";
+
+"username" = "Username";
+
+"paymentRequestForm" = "Payment Request Form";
+
+"createBillOfSale" = "Create Bill of Sale";
+
+"vinLast8" = "VIN (Last 8)";
+
+"mileageClassification" = "Mileage Classification";
+
+"saving" = "Saving...";
+
+"start" = "Start:";
+
+"manager" = "Manager";
+
+"fixed" = "Fixed";
+
+"searchProcesses" = "Search Processes";
+
+"billOfSalePdf" = "Bill of Sale PDF";
+
+"sellerAcknowledgesTheyWillWarrantyTheVehicleWhileTheVehicleIs" = "Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage.";
+
+"shippedOn" = "Shipped On";
+
+"shippingCost" = "Shipping Cost";
+
+"yes" = "Yes";
+
+"newShippingCompany" = "New Shipping Company";
+
+"createShipment" = "Create Shipment";
+
+"bankAccount" = "Bank Account";
+
+"allStatuses" = "All Statuses";
+
+"noVehiclesSelected" = "No Vehicles Selected";
+
+"shippedTo" = "Shipped To";
+
+"willTheSellerInitialAndSignTheBillOfSaleIn" = "Will the seller initial and sign the bill of sale in person?";
+
+"shipmentNo" = "Shipment No";
+
+"loading" = "Loading";
+
+"theVehicleInformationHasNotYetBeenImportedEnterSomeBasic" = "The vehicle information has not yet been imported. Enter some basic information about this vehicle.";
+
+"editingIsAllowedForMileageAndSupplierOtherVehicleInformationShould" = "Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto.";
+
+"universalSearch" = "Universal Search";
+
+"componentHasBeenAcceptablyRepaired" = "Component has been acceptably repaired";
+
+"specifyOtherClassification" = "Specify other classification";
+
+"toReinspectPpu" = "To Reinspect - PPU";
+
+"completed" = "Completed";
+
+"collision" = "Collision";
+
+"payment" = "Payment";
+
+"vehiclePendingApproval" = "Vehicle Pending Approval";
+
+"trimseries" = "Trim/Series";
+
+"bosNotApproved" = "BOS Not Approved";
+
+"inspectionOverview" = "Inspection Overview";
+
+"email" = "Email";
+
+"titleHistory" = "Title History";
+
+"submit" = "Submit";
+
+"odometerDisclosure" = "Odometer Disclosure";
+
+"reason" = "Reason";
+
+"color" = "Color";
+
+"waterRecovery" = "Water Recovery";
+
+"update" = "Update";
+
+"selectVehicle" = "Select Vehicle";
+
+"inspector" = "Inspector";
+
+"vehicleImport" = "Vehicle Import";
+
+"logout" = "Logout";
+
+"sellerSignature" = "Seller Signature*";
+
+"pleaseWait" = "Please Wait";
+
+"retakeImages" = "Retake Images";
+
+"vehicleCheckedOutBy1231WouldLoseAnyUnsavedWorkproceedIfYou" = "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\n%1$@ would lose any unsaved work.\n\nProceed if you are sure you should.";
+
+"theSellerVerifiesThatTheOdometerStatedAboveIsActualOr" = "The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title.";
+
+"notActualMileage" = "Not Actual Mileage";
+
+"thisVehicleIsMissingInformationPleaseGoToVautoAndUpdate" = "This vehicle is missing information. Please go to vAuto and update this vehicle's information.";
+
+"region" = "Region";
+
+"priceNotRecognizedAsCurrency" = "Price Not Recognized as Currency";
+
+"consignment" = "Consignment";
+
+"shippedDate" = "Shipped Date";
+
+"legend" = "Legend";
+
+"savedPhotos" = "Saved Photos";
+
+"searchEverywhere" = "Search Everywhere";
+
+"burn" = "Burn";
+
+"preferred" = "Preferred";
+
+"editShipmentDetails" = "Edit Shipment Details";
+
+"shippingFrom" = "Shipping From";
+
+"cod" = "COD";
+
+"sellerType" = "Seller Type";
+
+"createBillOfSalePaymentRequest" = "Create Bill of Sale & Payment Request";
+
+"firstInspection" = "First Inspection";
+
+"pending" = "Pending";
+
+"dealerConsignmentAgreementTerms" = "Dealer Consignment Agreement Terms*";
+
+"clearNote" = "Clear Note";
+
+"pleaseSelectAShippingFromArea" = "Please select a Shipping From Area";
+
+"theSupplierDoesNotHaveAnyEmailAddressesPleaseAddOne" = "The supplier does not have any email addresses. Please add one in the rebuilder tool.";
+
+"paymentInitiated" = "Payment Initiated";
+
+"newRetailLocation" = "New Retail Location";
+
+"billOfSale" = "Bill of Sale";
+
+"billOfLading" = "Bill of Lading";
+
+"shippingNotes" = "Shipping Notes";
+
+"sellerWillNeedToBeAvailableViaPhonePhoneNumberAbove" = "Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal.";
+
+"supplierInformation1" = "Supplier Information: %1$@";
+
+"zipCodeMustBeBetween5And10Digits" = "Zip Code must be between 5 and 10 digits";
+
+"pass" = "Pass";
+
+"transmissionType" = "Transmission Type";
+
+"name" = "Name";
+
+"vehicleNotApproved" = "Vehicle Not Approved";
+
+"shippingCompany" = "Shipping Company";
+
+"cancelAndAbandonYourChanges" = "Cancel and abandon your changes?";
+
+"theOdometerYouEnteredIsMoreThan1000MilesDifferentThan" = "The odometer you entered is more than 1000 miles different than the original. Is this correct?";
+
+"partsReplacedrepaired" = "Parts Replaced/Repaired";
+
+"driverPhone" = "Driver Phone";
+
+"vehicleInformation" = "Vehicle Information";
+
+"citystatezip" = "City/State/Zip";
+
+"rejectionReason" = "Rejection Reason";
+
+"bos" = "BOS";
+
+"paymentMethod" = "Payment Method";
+
+"installTheAsnSuppliersToolInOrderToAddSupplierInformation" = "Install the ASN Suppliers tool in order to add Supplier information.";
+
+"shipments" = "Shipments";
+
+"trim" = "Trim";
+
+"titlePdf" = "Title PDF";
+
+"rejectRepair" = "Reject Repair";
+
+"vandalism" = "Vandalism";
+
+"purchasePriceCanBeUpdatedInVauto" = "Purchase price can be updated in vAuto.";
+
+"sellerAcknowledgesTheyWillWarrantyAnyallPaintWorkDoneToThe" = "Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first.";
+
+"addNote" = "Add Note";
+
+"bosHistory" = "BOS History";
+
+"lastKnownLocation" = "Last known location";
+
+"componentDoesNotApply" = "Component does not apply";
+
+"noPrice" = "No Price";
+
+"collectSignatures" = "Collect Signatures";
+
+"partsReplacedrepairs" = "Parts Replaced/Repairs*";
+
+"end" = "End:";
+
+"reinspection" = "Reinspection";
+
+"authenticating" = "Authenticating";
+
+"fail" = "Fail";
+
+"selectArea" = "Select Area";
+
+"inspectionTool" = "Inspection Tool";
+
+"inspectorName" = "Inspector Name";
+
+"reviewBos" = "Review BOS";
+
+"bosAwaiting" = "BOS Awaiting";
+
+"shipmentNo" = "Shipment No.";
+
+"markInTransit" = "Mark in Transit";
+
+"billOfSaleInPerson" = "Bill of Sale In Person";
+
+"chooseOrAddADealerToSystemUnlessThisIsA" = "Choose or add a dealer to system unless this is a one-off sale.";
+
+"allAreas" = "All Areas";
+
+"thisUserIsNotCurrentlySetupToUseThisApp" = "This user is not currently setup to use this app.";
+
+"login" = "Login";
+
+"componentIsAcceptable" = "Component is acceptable";
+
+"seller" = "Seller";
+
+"reset" = "Reset";
+
+"salvage" = "Salvage";
+
+"status" = "Status - %@";
+
+"create" = "Create";
+
+"odometer" = "Odometer";
+
+"comment" = "Comment";
+
+"noResults" = "No results";
+
+"sellerAcknowledgesTheyWillBeResponsibleForAllShippingCostsIncurred" = "Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office.";
+
+"networkError" = "Network Error";
+
+"bosPendingApproval" = "BOS Pending Approval";
+
+"editVehicles" = "Edit Vehicles";
+
+"shippingTo" = "Shipping To";
+
+"titleBackImage" = "Title Back Image";
+
+"dateCreated" = "Date Created";
+
+"manual" = "Manual";
+
+"rejectInspection" = "Reject Inspection?";
+
+"error" = "Error";
+
+"searching" = "Searching";
+
+"paid" = "Paid";
+
+"no" = "No";
+
+"save" = "Save";
+
+"nadaCleanTrade" = "NADA Clean Trade";
+
+"noInspector" = "No Inspector";
+
+"supplyingLocation" = "Supplying Location";
+
+"date" = "Date";
+
+"dealer" = "Dealer";
+
+"wouldYouLikeToMarkThisShipmentAs" = "Would you like to mark this shipment as %@?";
+
+"inspectionPdf" = "Inspection PDF";
+
+"checkedOut" = "Checked Out";
+
+"both" = "Both";
+
+"viewBillOfLading" = "View Bill of Lading";
+
+"sellerAcknowledgesThatTheyWillNotGetPaidUntilTheVehicle" = "Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded.";
+
+"report" = "Report";
+
+"billOfLadingImage1" = "Bill of Lading Image 1";
+
+"phoneNumberMustBeValid" = "Phone Number must be valid";
+
+"addSupplier" = "Add Supplier";
+
+"status" = "Status";
+
+"driverPhoneNumber" = "Driver Phone Number";
+
+"shipping" = "Shipping";
+
+"editInspection" = "Edit Inspection";
+
+"sendToSupplier" = "Send to Supplier";
+
+"shipmentFilters" = "Shipment Filters";
+
+"additionalImageLu" = "Additional Image %lu";
+
+"front" = "Front";
+
+"supplierNumber" = "Supplier Number";
+
+"abandonedDeal" = "Abandoned Deal";
+
+"newVehicleInformation" = "New Vehicle Information";
+
+"address" = "Address";
+
+"fullInspectionPdf" = "Full Inspection PDF";
+
+"addDealer" = "Add Dealer";
+
+"options" = "Options";
+
+"rejected" = "Rejected";
+
+"fullVinOrLast8OfVin" = "Full VIN or Last 8 of VIN";
+
+"areYouSureYouWantToRejectThisInspection" = "Are you sure you want to reject this inspection?";
+
+"checkOut" = "Check Out";
+
+"vehicleCheckedOutBy123PleaseContact1BeforeContinuingOrTryAgain" = "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\nPlease contact %1$@ before continuing or try again in a moment.";
+
+"bosApproved" = "BOS Approved";
+
+"note" = "Note";
+
+"net15" = "Net 15";
+
+"toReinspectSupplier" = "To Reinspect @ Supplier";
+
+"asnSuppliersNotAvailable" = "ASN Suppliers Not Available";
+
+"close" = "Close";
+
+"unauthorized" = "Unauthorized";
+
+"searchShipments" = "Search Shipments";
+
+"totalUnits" = "Total Units";
+
+"advancedFiltering" = "Advanced Filtering";
+
+"na" = "N/A";
+
+"supplier" = "Supplier";
+
+"markArrived" = "Mark Arrived";
+
+"other" = "Other";
+
+"shipmentNo" = "Shipment No - %@";
+
+"chooseThePreferredEmailAddressToReceiveThePdf" = "Choose the preferred email address to receive the PDF";
+
+"cylinders" = "Cylinders";
+
+"addressLine1" = "Address Line 1";
+
+"settings" = "Settings";
+
+"phoneNumber" = "Phone Number";
+
+"pleaseAddAsMuchInformationAsPossibleAboutEveryPartReplaced" = "Please add as much information as possible about every part replaced and repair performed for this vehicle. ";
+
+"supplierInspectionPdf" = "Supplier Inspection PDF";
+
+"inspected" = "Inspected";
+
+"billOfLadingImage2" = "Bill of Lading Image 2";
+
+"theft" = "Theft";
+
+"supplierEmail" = "Supplier Email";
+
+"supplierName" = "Supplier Name";
+
+"appraisedValue" = "Appraised Value";
+
+"takePhoto" = "Take photo";
+
+"model" = "Model";
+
+"purchasePrice" = "Purchase Price";
+
+"allRegions" = "All Regions";
+
+"zipCode" = "Zip Code";
+
+"warning" = "Warning";
+
+"clearFilters" = "Clear Filters";
+
+"buyerSignature" = "Buyer Signature*";
+
+"titleFrontImage" = "Title Front Image";
+
+"title" = "Title";
+
+"photoLibrary" = "Photo Library";
+
+"pnada" = "P/NADA";
+
+"youMustSelectASpecificShippingFromArea" = "You must select a specific Shipping From Area";
+
+"inTransit" = "In Transit";
+
+"vehicleFilters" = "Vehicle Filters";
+
+"loading" = "Loading...";
+
+"clearPhoto" = "Clear Photo";
+
+"vehicleTitle" = "Vehicle Title";
+
+"newSupplyingLocation" = "New Supplying Location";
+
+"shipmentVehicles" = "Shipment Vehicles";
+
+"mileage" = "Mileage";
+
+"vehicleSearch" = "Vehicle Search";
+
+"search" = "Search";
+
+"thereWasAnErrorUpdatingTheTitleImages" = "There was an error updating the title images.";
+
+"shippedFrom" = "Shipped From";
+
+"vin" = "VIN";
+
+"selectAnAccount" = "Select an Account";
