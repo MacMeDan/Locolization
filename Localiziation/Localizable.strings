@@ -1,640 +1,972 @@
 
+/** Clean **/
 "clean" = "Clean";
 
+/** Edit Bill of Sale **/
 "editBillOfSale" = "Edit Bill of Sale";
 
+/** Supplier Telephone **/
 "supplierTelephone" = "Supplier Telephone";
 
+/** No Results Found **/
 "noResultsFound" = "No Results Found";
 
+/** There can only be 10 vehicles per shipment **/
 "thereCanOnlyBe10VehiclesPerShipment" = "There can only be 10 vehicles per shipment";
 
+/** Phone Number must be no more than 16 digits **/
 "phoneNumberMustBeNoMoreThan16Digits" = "Phone Number must be no more than 16 digits";
 
+/** Back **/
 "back" = "Back";
 
+/** Vehicle Approved **/
 "vehicleApproved" = "Vehicle Approved";
 
+/** Displacement **/
 "displacement" = "Displacement";
 
-"noOfUnits" = "No. of Units";
-
-"selectRegion" = "Select Region";
-
-"clearSearchAndFilter" = "Clear search and filter";
-
-"dealerPurchaseAgreementTerms" = "Dealer Purchase Agreement Terms";
-
-"sellerVerifiesVehicleHasBeenRepairedToTheManufacturersSpecificationsAnd" = "Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order.";
-
+/** Payment Requested **/
 "paymentRequested" = "Payment Requested";
 
+/** No. of Units **/
+"noOfUnits" = "No. of Units";
+
+/** Clear search and filter **/
+"clearSearchAndFilter" = "Clear search and filter";
+
+/** Select Region **/
+"selectRegion" = "Select Region";
+
+/** Dealer Purchase Agreement Terms **/
+"dealerPurchaseAgreementTerms" = "Dealer Purchase Agreement Terms";
+
+/** Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order. **/
+"sellerVerifiesVehicleHasBeenRepairedToTheManufacturersSpecificationsAnd" = "Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order.";
+
+/** Submit BOS/PMT **/
 "submitBospmt" = "Submit BOS/PMT";
 
+/** Select Status **/
 "selectStatus" = "Select Status";
 
+/** Inspection Passed **/
 "inspectionPassed" = "Inspection Passed";
 
+/** Retail Location **/
 "retailLocation" = "Retail Location";
 
+/** Actual Mileage **/
 "actualMileage" = "Actual Mileage";
 
+/** State **/
 "state" = "State";
 
+/** Cancel **/
 "cancel" = "Cancel";
 
+/** Edit **/
 "edit" = "Edit";
 
-"quickPay" = "Quick Pay";
-
-"applyFilters" = "Apply Filters";
-
+/** BOS Awaiting Signature **/
 "bosAwaitingSignature" = "BOS Awaiting Signature";
 
+/** Make **/
 "make" = "Make";
 
+/** Quick Pay **/
+"quickPay" = "Quick Pay";
+
+/** Apply Filters **/
+"applyFilters" = "Apply Filters";
+
+/** Retry **/
 "retry" = "Retry";
 
+/** Your changes will be lost **/
 "yourChangesWillBeLost" = "Your changes will be lost";
 
+/** Phone **/
 "phone" = "Phone";
 
-"editTitle" = "Edit Title";
-
+/** City **/
 "city" = "City";
 
+/** Edit Title **/
+"editTitle" = "Edit Title";
+
+/** BOS Completed **/
 "bosCompleted" = "BOS Completed";
 
+/** Component needs further review **/
 "componentNeedsFurtherReview" = "Component needs further review";
 
+/** OK **/
 "ok" = "OK";
 
+/** Hail Damage **/
 "hailDamage" = "Hail Damage";
 
+/** Edit Vehicle Information **/
 "editVehicleInformation" = "Edit Vehicle Information";
 
+/** Loading Vehicles... **/
 "loadingVehicles" = "Loading Vehicles...";
 
+/** Are you sure? **/
 "areYouSure" = "Are you sure?";
 
+/** Area **/
 "area" = "Area";
 
+/** Unreject **/
 "unreject" = "Unreject";
 
+/** Resend Bill of Sale for Signatures **/
 "resendBillOfSaleForSignatures" = "Resend Bill of Sale for Signatures";
 
+/** Resend for Signatures **/
 "resendForSignatures" = "Resend for Signatures";
 
+/** Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually. **/
 "searchForAVehicleUsingTheFullVinOrLast8" = "Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually.";
 
+/** Request **/
 "request" = "Request";
 
-"notes" = "Notes";
-
+/** Full Purchase **/
 "fullPurchase" = "Full Purchase";
 
+/** Notes **/
+"notes" = "Notes";
+
+/** Engine Size **/
 "engineSize" = "Engine Size";
 
+/** Shipment Status **/
 "shipmentStatus" = "Shipment Status";
 
+/** Arrived **/
 "arrived" = "Arrived";
 
+/** Reject **/
 "reject" = "Reject";
 
+/** Body Style **/
 "bodyStyle" = "Body Style";
 
+/** Changing the area will remove all vehicles from this shipment **/
 "changingTheAreaWillRemoveAllVehiclesFromThisShipment" = "Changing the area will remove all vehicles from this shipment";
 
+/** Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense. **/
 "sellerAcknowledgesThatIfVehicleDoesNotSellAfter120Days" = "Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense.";
 
+/** Password **/
 "password" = "Password";
 
+/** Title Classification **/
 "titleClassification" = "Title Classification";
 
+/** Inspection Summary **/
 "inspectionSummary" = "Inspection Summary";
 
+/** Arrived Date **/
 "arrivedDate" = "Arrived Date";
 
-"confirm" = "Confirm";
-
-"drivetrain" = "Drivetrain";
-
-"insuranceClassification" = "Insurance Classification";
-
+/** Driver Name **/
 "driverName" = "Driver Name";
 
+/** Drivetrain **/
+"drivetrain" = "Drivetrain";
+
+/** Confirm **/
+"confirm" = "Confirm";
+
+/** Component is unacceptable **/
 "componentIsUnacceptable" = "Component is unacceptable";
 
+/** Insurance Classification **/
+"insuranceClassification" = "Insurance Classification";
+
+/** Initial **/
 "initial" = "Initial";
 
+/** Needs Attention **/
 "needsAttention" = "Needs Attention";
 
-"unableToLogIn" = "Unable to log in";
-
-"shipmentInformation" = "Shipment Information";
-
-"requestPayment" = "Request Payment";
-
-"dealerAddress" = "Dealer Address";
-
-"badCredentials" = "Bad Credentials";
-
+/** Last Modified **/
 "lastModified" = "Last Modified";
 
+/** Shipment Information **/
+"shipmentInformation" = "Shipment Information";
+
+/** Dealer Address **/
+"dealerAddress" = "Dealer Address";
+
+/** Request Payment **/
+"requestPayment" = "Request Payment";
+
+/** Unable to log in **/
+"unableToLogIn" = "Unable to log in";
+
+/** * denotes preferred account **/
 "denotesPreferredAccount" = "* denotes preferred account";
 
+/** Bad Credentials **/
+"badCredentials" = "Bad Credentials";
+
+/** Edit Shipment Vehicles **/
 "editShipmentVehicles" = "Edit Shipment Vehicles";
 
+/** Shipment Details **/
 "shipmentDetails" = "Shipment Details";
 
+/** Automatic **/
 "automatic" = "Automatic";
 
+/** Other Classification **/
 "otherClassification" = "Other Classification";
 
-"toReinspectAsmShop" = "To Reinspect @ ASM Shop";
-
-"driver" = "Driver";
-
+/** Address Line 2 **/
 "addressLine2" = "Address Line 2";
 
+/** To Reinspect @ ASM Shop **/
+"toReinspectAsmShop" = "To Reinspect @ ASM Shop";
+
+/** Driver **/
+"driver" = "Driver";
+
+/** No inspections matched the specified criteria **/
 "noInspectionsMatchedTheSpecifiedCriteria" = "No inspections matched the specified criteria";
 
+/** Reinspection Count **/
 "reinspectionCount" = "Reinspection Count";
 
-"username" = "Username";
-
+/** Year **/
 "year" = "Year";
 
+/** Username **/
+"username" = "Username";
+
+/** Payment Request Form **/
 "paymentRequestForm" = "Payment Request Form";
 
+/** Create Bill of Sale **/
 "createBillOfSale" = "Create Bill of Sale";
 
+/** VIN (Last 8) **/
 "vinLast8" = "VIN (Last 8)";
 
+/** Mileage Classification **/
 "mileageClassification" = "Mileage Classification";
 
+/** Saving... **/
 "saving" = "Saving...";
 
+/** Start: **/
 "start" = "Start:";
 
+/** Manager **/
 "manager" = "Manager";
 
+/** Fixed **/
 "fixed" = "Fixed";
 
+/** Search Processes **/
 "searchProcesses" = "Search Processes";
 
+/** Bill of Sale PDF **/
 "billOfSalePdf" = "Bill of Sale PDF";
 
+/** Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage. **/
 "sellerAcknowledgesTheyWillWarrantyTheVehicleWhileTheVehicleIs" = "Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage.";
 
+/** Shipped On **/
 "shippedOn" = "Shipped On";
 
+/** Shipping Cost **/
 "shippingCost" = "Shipping Cost";
 
+/** Yes **/
 "yes" = "Yes";
 
+/** New Shipping Company **/
 "newShippingCompany" = "New Shipping Company";
 
+/** Create Shipment **/
 "createShipment" = "Create Shipment";
 
-"allStatuses" = "All Statuses";
-
-"noVehiclesSelected" = "No Vehicles Selected";
-
+/** Bank Account **/
 "bankAccount" = "Bank Account";
 
+/** All Statuses **/
+"allStatuses" = "All Statuses";
+
+/** No Vehicles Selected **/
+"noVehiclesSelected" = "No Vehicles Selected";
+
+/** Shipped To **/
 "shippedTo" = "Shipped To";
 
+/** Will the seller initial and sign the bill of sale in person? **/
 "willTheSellerInitialAndSignTheBillOfSaleIn" = "Will the seller initial and sign the bill of sale in person?";
 
-"editingIsAllowedForMileageAndSupplierOtherVehicleInformationShould" = "Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto.";
+/** Shipment No **/
+"shipmentNo" = "Shipment No";
 
-"vehiclePendingApproval" = "Vehicle Pending Approval";
+/** Loading **/
+"loading" = "Loading";
 
+/** The vehicle information has not yet been imported. Enter some basic information about this vehicle. **/
 "theVehicleInformationHasNotYetBeenImportedEnterSomeBasic" = "The vehicle information has not yet been imported. Enter some basic information about this vehicle.";
 
-"trimseries" = "Trim/Series";
+/** Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto. **/
+"editingIsAllowedForMileageAndSupplierOtherVehicleInformationShould" = "Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto.";
 
+/** Universal Search **/
 "universalSearch" = "Universal Search";
 
-"bosNotApproved" = "BOS Not Approved";
-
-"toReinspectPpu" = "To Reinspect - PPU";
-
-"payment" = "Payment";
-
-"completed" = "Completed";
-
-"specifyOtherClassification" = "Specify other classification";
-
+/** Component has been acceptably repaired **/
 "componentHasBeenAcceptablyRepaired" = "Component has been acceptably repaired";
 
+/** Specify other classification **/
+"specifyOtherClassification" = "Specify other classification";
+
+/** To Reinspect - PPU **/
+"toReinspectPpu" = "To Reinspect - PPU";
+
+/** Completed **/
+"completed" = "Completed";
+
+/** Collision **/
 "collision" = "Collision";
 
-"inspectionOverview" = "Inspection Overview";
+/** Payment **/
+"payment" = "Payment";
 
-"email" = "Email";
+/** Vehicle Pending Approval **/
+"vehiclePendingApproval" = "Vehicle Pending Approval";
 
-"color" = "Color";
+/** Trim/Series **/
+"trimseries" = "Trim/Series";
 
-"submit" = "Submit";
+/** BOS Not Approved **/
+"bosNotApproved" = "BOS Not Approved";
 
-"reason" = "Reason";
-
-"odometerDisclosure" = "Odometer Disclosure";
-
+/** Title History **/
 "titleHistory" = "Title History";
 
+/** Email **/
+"email" = "Email";
+
+/** Inspection Overview **/
+"inspectionOverview" = "Inspection Overview";
+
+/** Submit **/
+"submit" = "Submit";
+
+/** Odometer Disclosure **/
+"odometerDisclosure" = "Odometer Disclosure";
+
+/** Reason **/
+"reason" = "Reason";
+
+/** Color **/
+"color" = "Color";
+
+/** Water Recovery **/
 "waterRecovery" = "Water Recovery";
 
+/** Update **/
 "update" = "Update";
 
+/** Select Vehicle **/
 "selectVehicle" = "Select Vehicle";
 
+/** Inspector **/
 "inspector" = "Inspector";
 
+/** Vehicle Import **/
 "vehicleImport" = "Vehicle Import";
 
+/** Logout **/
 "logout" = "Logout";
 
+/** Seller Signature* **/
 "sellerSignature" = "Seller Signature*";
 
+/** Please Wait **/
 "pleaseWait" = "Please Wait";
 
+/** Retake Images **/
 "retakeImages" = "Retake Images";
 
+/** Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\n%1$@ would lose any unsaved work.\n\nProceed if you are sure you should. **/
 "vehicleCheckedOutBy1231WouldLoseAnyUnsavedWorkproceedIfYou" = "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\n%1$@ would lose any unsaved work.\n\nProceed if you are sure you should.";
 
+/** The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title. **/
 "theSellerVerifiesThatTheOdometerStatedAboveIsActualOr" = "The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title.";
 
+/** Not Actual Mileage **/
 "notActualMileage" = "Not Actual Mileage";
 
+/** This vehicle is missing information. Please go to vAuto and update this vehicle's information. **/
 "thisVehicleIsMissingInformationPleaseGoToVautoAndUpdate" = "This vehicle is missing information. Please go to vAuto and update this vehicle's information.";
 
+/** Region **/
 "region" = "Region";
 
+/** Price Not Recognized as Currency **/
 "priceNotRecognizedAsCurrency" = "Price Not Recognized as Currency";
 
+/** Consignment **/
 "consignment" = "Consignment";
 
+/** Shipped Date **/
 "shippedDate" = "Shipped Date";
 
+/** Legend **/
 "legend" = "Legend";
 
-"burn" = "Burn";
-
+/** Saved Photos **/
 "savedPhotos" = "Saved Photos";
 
+/** Search Everywhere **/
 "searchEverywhere" = "Search Everywhere";
 
+/** Burn **/
+"burn" = "Burn";
+
+/** Preferred **/
 "preferred" = "Preferred";
 
-"shippingFrom" = "Shipping From";
-
+/** Edit Shipment Details **/
 "editShipmentDetails" = "Edit Shipment Details";
 
+/** Shipping From **/
+"shippingFrom" = "Shipping From";
+
+/** COD **/
 "cod" = "COD";
 
+/** Seller Type **/
 "sellerType" = "Seller Type";
 
+/** Create Bill of Sale & Payment Request **/
 "createBillOfSalePaymentRequest" = "Create Bill of Sale & Payment Request";
 
+/** First Inspection **/
 "firstInspection" = "First Inspection";
 
-"clearNote" = "Clear Note";
-
-"dealerConsignmentAgreementTerms" = "Dealer Consignment Agreement Terms*";
-
+/** Pending **/
 "pending" = "Pending";
 
+/** Dealer Consignment Agreement Terms* **/
+"dealerConsignmentAgreementTerms" = "Dealer Consignment Agreement Terms*";
+
+/** Clear Note **/
+"clearNote" = "Clear Note";
+
+/** Please select a Shipping From Area **/
 "pleaseSelectAShippingFromArea" = "Please select a Shipping From Area";
 
+/** The supplier does not have any email addresses. Please add one in the rebuilder tool. **/
 "theSupplierDoesNotHaveAnyEmailAddressesPleaseAddOne" = "The supplier does not have any email addresses. Please add one in the rebuilder tool.";
 
-"transmissionType" = "Transmission Type";
-
-"newRetailLocation" = "New Retail Location";
-
-"billOfSale" = "Bill of Sale";
-
-"billOfLading" = "Bill of Lading";
-
-"shippingNotes" = "Shipping Notes";
-
+/** Payment Initiated **/
 "paymentInitiated" = "Payment Initiated";
 
-"supplierInformation1" = "Supplier Information: %1$@";
+/** New Retail Location **/
+"newRetailLocation" = "New Retail Location";
 
-"pass" = "Pass";
+/** Bill of Sale **/
+"billOfSale" = "Bill of Sale";
 
-"zipCodeMustBeBetween5And10Digits" = "Zip Code must be between 5 and 10 digits";
+/** Bill of Lading **/
+"billOfLading" = "Bill of Lading";
 
+/** Shipping Notes **/
+"shippingNotes" = "Shipping Notes";
+
+/** Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal. **/
 "sellerWillNeedToBeAvailableViaPhonePhoneNumberAbove" = "Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal.";
 
+/** Supplier Information: %1$@ **/
+"supplierInformation1" = "Supplier Information: %1$@";
+
+/** Zip Code must be between 5 and 10 digits **/
+"zipCodeMustBeBetween5And10Digits" = "Zip Code must be between 5 and 10 digits";
+
+/** Pass **/
+"pass" = "Pass";
+
+/** Transmission Type **/
+"transmissionType" = "Transmission Type";
+
+/** Name **/
 "name" = "Name";
 
+/** Vehicle Not Approved **/
 "vehicleNotApproved" = "Vehicle Not Approved";
 
-"cancelAndAbandonYourChanges" = "Cancel and abandon your changes?";
-
-"vehicleInformation" = "Vehicle Information";
-
-"theOdometerYouEnteredIsMoreThan1000MilesDifferentThan" = "The odometer you entered is more than 1000 miles different than the original. Is this correct?";
-
+/** Shipping Company **/
 "shippingCompany" = "Shipping Company";
 
-"driverPhone" = "Driver Phone";
+/** Cancel and abandon your changes? **/
+"cancelAndAbandonYourChanges" = "Cancel and abandon your changes?";
 
+/** The odometer you entered is more than 1000 miles different than the original. Is this correct? **/
+"theOdometerYouEnteredIsMoreThan1000MilesDifferentThan" = "The odometer you entered is more than 1000 miles different than the original. Is this correct?";
+
+/** Parts Replaced/Repaired **/
 "partsReplacedrepaired" = "Parts Replaced/Repaired";
 
+/** Driver Phone **/
+"driverPhone" = "Driver Phone";
+
+/** Vehicle Information **/
+"vehicleInformation" = "Vehicle Information";
+
+/** City/State/Zip **/
 "citystatezip" = "City/State/Zip";
 
+/** Rejection Reason **/
 "rejectionReason" = "Rejection Reason";
 
+/** BOS **/
 "bos" = "BOS";
 
+/** Payment Method **/
 "paymentMethod" = "Payment Method";
 
+/** Install the ASN Suppliers tool in order to add Supplier information. **/
 "installTheAsnSuppliersToolInOrderToAddSupplierInformation" = "Install the ASN Suppliers tool in order to add Supplier information.";
 
+/** Shipments **/
 "shipments" = "Shipments";
 
+/** Trim **/
 "trim" = "Trim";
 
+/** Title PDF **/
 "titlePdf" = "Title PDF";
 
+/** Reject Repair **/
 "rejectRepair" = "Reject Repair";
 
+/** Vandalism **/
 "vandalism" = "Vandalism";
 
+/** Purchase price can be updated in vAuto. **/
 "purchasePriceCanBeUpdatedInVauto" = "Purchase price can be updated in vAuto.";
 
+/** Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first. **/
 "sellerAcknowledgesTheyWillWarrantyAnyallPaintWorkDoneToThe" = "Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first.";
 
+/** Add Note **/
 "addNote" = "Add Note";
 
-"collectSignatures" = "Collect Signatures";
-
+/** BOS History **/
 "bosHistory" = "BOS History";
 
-"componentDoesNotApply" = "Component does not apply";
-
-"noPrice" = "No Price";
-
+/** Last known location **/
 "lastKnownLocation" = "Last known location";
 
+/** Component does not apply **/
+"componentDoesNotApply" = "Component does not apply";
+
+/** No Price **/
+"noPrice" = "No Price";
+
+/** Collect Signatures **/
+"collectSignatures" = "Collect Signatures";
+
+/** Parts Replaced/Repairs* **/
 "partsReplacedrepairs" = "Parts Replaced/Repairs*";
 
-"reinspection" = "Reinspection";
-
+/** End: **/
 "end" = "End:";
 
-"selectArea" = "Select Area";
+/** Reinspection **/
+"reinspection" = "Reinspection";
 
-"inspectionTool" = "Inspection Tool";
-
-"fail" = "Fail";
-
+/** Authenticating **/
 "authenticating" = "Authenticating";
 
+/** Fail **/
+"fail" = "Fail";
+
+/** Select Area **/
+"selectArea" = "Select Area";
+
+/** Inspection Tool **/
+"inspectionTool" = "Inspection Tool";
+
+/** Inspector Name **/
 "inspectorName" = "Inspector Name";
 
+/** Review BOS **/
 "reviewBos" = "Review BOS";
 
+/** BOS Awaiting **/
 "bosAwaiting" = "BOS Awaiting";
 
+/** Shipment No. **/
+"shipmentNo" = "Shipment No.";
+
+/** Mark in Transit **/
 "markInTransit" = "Mark in Transit";
 
+/** Bill of Sale In Person **/
 "billOfSaleInPerson" = "Bill of Sale In Person";
 
+/** Choose or add a dealer to system unless this is a one-off sale. **/
 "chooseOrAddADealerToSystemUnlessThisIsA" = "Choose or add a dealer to system unless this is a one-off sale.";
 
+/** All Areas **/
 "allAreas" = "All Areas";
 
+/** This user is not currently setup to use this app. **/
 "thisUserIsNotCurrentlySetupToUseThisApp" = "This user is not currently setup to use this app.";
 
-"componentIsAcceptable" = "Component is acceptable";
-
+/** Login **/
 "login" = "Login";
 
+/** Component is acceptable **/
+"componentIsAcceptable" = "Component is acceptable";
+
+/** Seller **/
 "seller" = "Seller";
 
+/** Reset **/
 "reset" = "Reset";
 
+/** Salvage **/
 "salvage" = "Salvage";
 
+/** Status - %@ **/
+"status" = "Status - %@";
+
+/** Create **/
 "create" = "Create";
 
+/** Odometer **/
 "odometer" = "Odometer";
 
+/** Comment **/
 "comment" = "Comment";
 
+/** No results **/
 "noResults" = "No results";
 
+/** Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office. **/
 "sellerAcknowledgesTheyWillBeResponsibleForAllShippingCostsIncurred" = "Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office.";
 
+/** Network Error **/
 "networkError" = "Network Error";
 
+/** BOS Pending Approval **/
 "bosPendingApproval" = "BOS Pending Approval";
 
+/** Edit Vehicles **/
 "editVehicles" = "Edit Vehicles";
 
+/** Shipping To **/
 "shippingTo" = "Shipping To";
 
+/** Title Back Image **/
 "titleBackImage" = "Title Back Image";
 
+/** Date Created **/
 "dateCreated" = "Date Created";
 
+/** Manual **/
 "manual" = "Manual";
 
+/** Reject Inspection? **/
 "rejectInspection" = "Reject Inspection?";
 
+/** Error **/
 "error" = "Error";
 
-"paid" = "Paid";
-
-"date" = "Date";
-
+/** Searching **/
 "searching" = "Searching";
 
-"save" = "Save";
+/** Paid **/
+"paid" = "Paid";
 
-"nadaCleanTrade" = "NADA Clean Trade";
-
+/** No **/
 "no" = "No";
 
-"supplyingLocation" = "Supplying Location";
+/** Save **/
+"save" = "Save";
 
+/** NADA Clean Trade **/
+"nadaCleanTrade" = "NADA Clean Trade";
+
+/** No Inspector **/
 "noInspector" = "No Inspector";
 
-"wouldYouLikeToMarkThisShipmentAs" = "Would you like to mark this shipment as %@?";
+/** Supplying Location **/
+"supplyingLocation" = "Supplying Location";
 
+/** Date **/
+"date" = "Date";
+
+/** Dealer **/
 "dealer" = "Dealer";
 
+/** Would you like to mark this shipment as %@? **/
+"wouldYouLikeToMarkThisShipmentAs" = "Would you like to mark this shipment as %@?";
+
+/** Inspection PDF **/
 "inspectionPdf" = "Inspection PDF";
 
+/** Checked Out **/
 "checkedOut" = "Checked Out";
 
+/** Both **/
 "both" = "Both";
 
+/** View Bill of Lading **/
 "viewBillOfLading" = "View Bill of Lading";
 
+/** Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded. **/
 "sellerAcknowledgesThatTheyWillNotGetPaidUntilTheVehicle" = "Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded.";
 
+/** Report **/
 "report" = "Report";
 
-"phoneNumberMustBeValid" = "Phone Number must be valid";
-
-"addSupplier" = "Add Supplier";
-
-"shipping" = "Shipping";
-
-"status" = "Status";
-
-"driverPhoneNumber" = "Driver Phone Number";
-
-"newVehicleInformation" = "New Vehicle Information";
-
-"editInspection" = "Edit Inspection";
-
-"front" = "Front";
-
-"shipmentFilters" = "Shipment Filters";
-
-"additionalImageLu" = "Additional Image %lu";
-
+/** Bill of Lading Image 1 **/
 "billOfLadingImage1" = "Bill of Lading Image 1";
 
-"supplierNumber" = "Supplier Number";
+/** Phone Number must be valid **/
+"phoneNumberMustBeValid" = "Phone Number must be valid";
 
-"abandonedDeal" = "Abandoned Deal";
+/** Add Supplier **/
+"addSupplier" = "Add Supplier";
 
+/** Status **/
+"status" = "Status";
+
+/** Driver Phone Number **/
+"driverPhoneNumber" = "Driver Phone Number";
+
+/** Shipping **/
+"shipping" = "Shipping";
+
+/** Edit Inspection **/
+"editInspection" = "Edit Inspection";
+
+/** Send to Supplier **/
 "sendToSupplier" = "Send to Supplier";
 
+/** Shipment Filters **/
+"shipmentFilters" = "Shipment Filters";
+
+/** Additional Image %lu **/
+"additionalImageLu" = "Additional Image %lu";
+
+/** Front **/
+"front" = "Front";
+
+/** Supplier Number **/
+"supplierNumber" = "Supplier Number";
+
+/** Abandoned Deal **/
+"abandonedDeal" = "Abandoned Deal";
+
+/** New Vehicle Information **/
+"newVehicleInformation" = "New Vehicle Information";
+
+/** Address **/
 "address" = "Address";
 
-"addDealer" = "Add Dealer";
-
+/** Full Inspection PDF **/
 "fullInspectionPdf" = "Full Inspection PDF";
 
+/** Add Dealer **/
+"addDealer" = "Add Dealer";
+
+/** Options **/
 "options" = "Options";
 
+/** Rejected **/
 "rejected" = "Rejected";
 
-"areYouSureYouWantToRejectThisInspection" = "Are you sure you want to reject this inspection?";
-
+/** Full VIN or Last 8 of VIN **/
 "fullVinOrLast8OfVin" = "Full VIN or Last 8 of VIN";
 
+/** Are you sure you want to reject this inspection? **/
+"areYouSureYouWantToRejectThisInspection" = "Are you sure you want to reject this inspection?";
+
+/** Check Out **/
 "checkOut" = "Check Out";
 
+/** Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\nPlease contact %1$@ before continuing or try again in a moment. **/
 "vehicleCheckedOutBy123PleaseContact1BeforeContinuingOrTryAgain" = "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\nPlease contact %1$@ before continuing or try again in a moment.";
 
+/** BOS Approved **/
 "bosApproved" = "BOS Approved";
 
+/** Note **/
 "note" = "Note";
 
+/** Net 15 **/
 "net15" = "Net 15";
 
-"asnSuppliersNotAvailable" = "ASN Suppliers Not Available";
-
+/** To Reinspect @ Supplier **/
 "toReinspectSupplier" = "To Reinspect @ Supplier";
 
+/** ASN Suppliers Not Available **/
+"asnSuppliersNotAvailable" = "ASN Suppliers Not Available";
+
+/** Close **/
 "close" = "Close";
 
-"searchShipments" = "Search Shipments";
-
+/** Unauthorized **/
 "unauthorized" = "Unauthorized";
 
+/** Search Shipments **/
+"searchShipments" = "Search Shipments";
+
+/** Total Units **/
 "totalUnits" = "Total Units";
 
-"supplier" = "Supplier";
-
+/** Advanced Filtering **/
 "advancedFiltering" = "Advanced Filtering";
 
+/** N/A **/
 "na" = "N/A";
 
+/** Supplier **/
+"supplier" = "Supplier";
+
+/** Mark Arrived **/
 "markArrived" = "Mark Arrived";
 
+/** Other **/
 "other" = "Other";
 
+/** Shipment No - %@ **/
 "shipmentNo" = "Shipment No - %@";
 
+/** Choose the preferred email address to receive the PDF **/
 "chooseThePreferredEmailAddressToReceiveThePdf" = "Choose the preferred email address to receive the PDF";
 
+/** Cylinders **/
 "cylinders" = "Cylinders";
 
+/** Address Line 1 **/
 "addressLine1" = "Address Line 1";
 
-"phoneNumber" = "Phone Number";
-
+/** Settings **/
 "settings" = "Settings";
 
+/** Phone Number **/
+"phoneNumber" = "Phone Number";
+
+/** Please add as much information as possible about every part replaced and repair performed for this vehicle.  **/
 "pleaseAddAsMuchInformationAsPossibleAboutEveryPartReplaced" = "Please add as much information as possible about every part replaced and repair performed for this vehicle. ";
 
+/** Supplier Inspection PDF **/
 "supplierInspectionPdf" = "Supplier Inspection PDF";
 
+/** Inspected **/
 "inspected" = "Inspected";
 
+/** Bill of Lading Image 2 **/
 "billOfLadingImage2" = "Bill of Lading Image 2";
 
+/** Theft **/
 "theft" = "Theft";
 
-"supplierName" = "Supplier Name";
-
+/** Supplier Email **/
 "supplierEmail" = "Supplier Email";
 
+/** Supplier Name **/
+"supplierName" = "Supplier Name";
+
+/** Appraised Value **/
 "appraisedValue" = "Appraised Value";
 
+/** Take photo **/
 "takePhoto" = "Take photo";
 
-"purchasePrice" = "Purchase Price";
-
+/** Model **/
 "model" = "Model";
 
+/** Purchase Price **/
+"purchasePrice" = "Purchase Price";
+
+/** All Regions **/
 "allRegions" = "All Regions";
 
+/** Zip Code **/
 "zipCode" = "Zip Code";
 
+/** Warning **/
 "warning" = "Warning";
 
+/** Clear Filters **/
 "clearFilters" = "Clear Filters";
 
-"titleFrontImage" = "Title Front Image";
-
-"title" = "Title";
-
+/** Buyer Signature* **/
 "buyerSignature" = "Buyer Signature*";
 
+/** Title Front Image **/
+"titleFrontImage" = "Title Front Image";
+
+/** Title **/
+"title" = "Title";
+
+/** Photo Library **/
 "photoLibrary" = "Photo Library";
 
+/** P/NADA **/
 "pnada" = "P/NADA";
 
+/** You must select a specific Shipping From Area **/
 "youMustSelectASpecificShippingFromArea" = "You must select a specific Shipping From Area";
 
+/** In Transit **/
 "inTransit" = "In Transit";
 
-"shippedFrom" = "Shipped From";
-
+/** Vehicle Filters **/
 "vehicleFilters" = "Vehicle Filters";
 
-"clearPhoto" = "Clear Photo";
-
-"vehicleTitle" = "Vehicle Title";
-
-"newSupplyingLocation" = "New Supplying Location";
-
-"shipmentVehicles" = "Shipment Vehicles";
-
-"mileage" = "Mileage";
-
-"vehicleSearch" = "Vehicle Search";
-
-"thereWasAnErrorUpdatingTheTitleImages" = "There was an error updating the title images.";
-
-"search" = "Search";
-
+/** Loading... **/
 "loading" = "Loading...";
 
+/** Clear Photo **/
+"clearPhoto" = "Clear Photo";
+
+/** Vehicle Title **/
+"vehicleTitle" = "Vehicle Title";
+
+/** New Supplying Location **/
+"newSupplyingLocation" = "New Supplying Location";
+
+/** Shipment Vehicles **/
+"shipmentVehicles" = "Shipment Vehicles";
+
+/** Mileage **/
+"mileage" = "Mileage";
+
+/** Vehicle Search **/
+"vehicleSearch" = "Vehicle Search";
+
+/** Search **/
+"search" = "Search";
+
+/** There was an error updating the title images. **/
+"thereWasAnErrorUpdatingTheTitleImages" = "There was an error updating the title images.";
+
+/** Shipped From **/
+"shippedFrom" = "Shipped From";
+
+/** VIN **/
 "vin" = "VIN";
 
+/** Select an Account **/
 "selectAnAccount" = "Select an Account";

@@ -37,9 +37,9 @@ func writeData( _ newData: String, path: [String], completion:((String) -> Void)
 
 func getEntry(key: String? = nil, value rawValue: String) -> String? {
     if let key = key {
-        return "\n\"\(key)\" = \"\(rawValue.exscapeNewLine)\";\n"
+        return "\n/** \(rawValue.exscapeNewLine) **/\n\"\(key)\" = \"\(rawValue.exscapeNewLine)\";\n"
     } else {
-        return "\n\"\(rawValue.camelCased)\" = \"\(rawValue.exscapeNewLine)\";\n"
+        return "\n/** \(rawValue.exscapeNewLine) **/\n\"\(rawValue.camelCased)\" = \"\(rawValue.exscapeNewLine)\";\n"
     }
 }
 
