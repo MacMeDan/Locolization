@@ -9,7 +9,7 @@
 
 import Foundation
 
-var pathToProject: String = "/Users/macmedan/Swift/Locolization/"
+var pathToProject: String = "Locolization/"
 var sourceFilePath: String = "Localiziation/Localizable.strings"
 var destinationFilePath: String = "Localiziation/temp.strings"
 var resourceFilePath: String = "Localiziation/Resources.swift"
@@ -38,21 +38,21 @@ func containsColin(_ string: String) -> Bool {
     return string.contains(":")
 }
 
-//// MARK: Setup
-//print("""
-//    Please enter the path to your project.
-//    """, terminator: "")
-//pathToProject = readLine()!
-//
-//print("""
-//    Please enter the path from your project base directory to your destination file.
-//    """, terminator: "")
-//sourceFilePath = readLine()!
-//
-//print("""
-//    Please enter the path from your project base directory to your to your Resource file.
-//    """, terminator: "")
-//resourceFilePath = readLine()!
+// MARK: Setup
+print("""
+    Please enter the path to your project.
+    """, terminator: "")
+pathToProject = readLine()!
+
+print("""
+    Please enter the path from your project base directory to your destination file.
+    """, terminator: "")
+sourceFilePath = readLine()!
+
+print("""
+    Please enter the path from your project base directory to your to your Resource file.
+    """, terminator: "")
+resourceFilePath = readLine()!
 
 // MARK: Options
 print("""

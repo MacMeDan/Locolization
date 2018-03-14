@@ -81,10 +81,10 @@
 				2C9F99E9204DF4180083E662 /* main.swift */,
 				2C9F99F1204DF4550083E662 /* UpdateLocalisedStringKeys.swift */,
 				2C206F8B204F2723001BEDFF /* ResourceGenerator.swift */,
-				2C206F84204F202D001BEDFF /* README.md */,
-				2C206F85204F2064001BEDFF /* Localizable.strings */,
 				2C9F99F4204DF4D00083E662 /* Resources.swift */,
+				2C206F85204F2064001BEDFF /* Localizable.strings */,
 				2C9F99F9204E005D0083E662 /* temp.strings */,
+				2C206F84204F202D001BEDFF /* README.md */,
 				2C206F8A204F22F8001BEDFF /* extensions */,
 			);
 			path = Localiziation;
