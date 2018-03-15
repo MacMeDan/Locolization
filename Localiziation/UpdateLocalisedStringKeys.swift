@@ -30,6 +30,7 @@ func locolizeNewString( _ newString: String, newKey: String? = nil) {
 func writeData( _ newData: String, path: [String], completion:((String) -> Void)) {
     do {
         try newData.write(to: projectDirectory.appendingPathComponents(path), atomically: true, encoding: .utf8)
+        completion("Sucsess Writing to path: \(path)")
     } catch {
         completion(error.localizedDescription)
     }

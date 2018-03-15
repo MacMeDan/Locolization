@@ -9,10 +9,10 @@
 import Foundation
 
 func generateResourceEnum() {
-    print("Reading from  <- \n          \(projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/")).absoluteString)")
-    print("Generating to -> \n          \(projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/")).absoluteString)")
+    print("Reading from  <-    \(projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/")).absoluteString)")
+    print("Generating to ->    \(projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/")).absoluteString)")
 
-    let newValues = NSDictionary(contentsOf: projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/"))).flatMap{$0}!
+    let newValues = Array(NSDictionary(contentsOf: projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/"))).flatMap{$0}!).sorted{($0.0 as! String) < ($1.0 as! String)}
     let staticFunctions = newValues.map {
         """
         
@@ -34,6 +34,7 @@ func generateResourceEnum() {
     //
     // `R` represents Resource a common practace used in other development enviroments.
 
+    import Foundation
 
     enum R {
         \(staticFunctions)
@@ -59,3 +60,15 @@ func generateNewStringsFile() {
     }
     
 }
+
+
+func generateNewStringsSortedByKeyFile() {
+    var newData: String
+    let allValues = Array(NSDictionary(contentsOf: projectDirectory.appendingPathComponents(sourceFilePath.components(separatedBy: "/"))).flatMap{$0}!).sorted{($0.1 as! String) < ($1.1 as! String)}
+    newData = allValues.flatMap{ getEntry(key: $0.0 as! String, value: $0.1 as! String) }.joined()
+
+    writeData(newData, path: sourceFilePath.components(separatedBy: "/")) { _ in
+        generateResourceEnum()
+    }
+}
+

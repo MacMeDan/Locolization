@@ -8,1052 +8,1241 @@
 //
 // `R` represents Resource a common practace used in other development enviroments.
 
+import Foundation
 
 enum R {
     
-    /** Checked Out */
-    static var checkedOut = {
-            NSLocalizedString("checkedOut", comment: "Checked Out")}()
-
-    /** Vehicle Search */
-    static var vehicleSearch = {
-            NSLocalizedString("vehicleSearch", comment: "Vehicle Search")}()
-
-    /** Please add as much information as possible about every part replaced and repair performed for this vehicle.  */
-    static var pleaseAddAsMuchInformationAsPossibleAboutEveryPartReplaced = {
-            NSLocalizedString("pleaseAddAsMuchInformationAsPossibleAboutEveryPartReplaced", comment: "Please add as much information as possible about every part replaced and repair performed for this vehicle. ")}()
-
-    /** The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title. */
-    static var theSellerVerifiesThatTheOdometerStatedAboveIsActualOr = {
-            NSLocalizedString("theSellerVerifiesThatTheOdometerStatedAboveIsActualOr", comment: "The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title.")}()
-
-    /** Manager */
-    static var manager = {
-            NSLocalizedString("manager", comment: "Manager")}()
-
-    /** Dealer Consignment Agreement Terms* */
-    static var dealerConsignmentAgreementTerms = {
-            NSLocalizedString("dealerConsignmentAgreementTerms", comment: "Dealer Consignment Agreement Terms*")}()
-
-    /** Shipment Information */
-    static var shipmentInformation = {
-            NSLocalizedString("shipmentInformation", comment: "Shipment Information")}()
-
-    /** Start: */
-    static var start = {
-            NSLocalizedString("start", comment: "Start:")}()
-
-    /** Supplier */
-    static var supplier = {
-            NSLocalizedString("supplier", comment: "Supplier")}()
-
-    /** Unable to log in */
-    static var unableToLogIn = {
-            NSLocalizedString("unableToLogIn", comment: "Unable to log in")}()
-
-    /** Displacement */
-    static var displacement = {
-            NSLocalizedString("displacement", comment: "Displacement")}()
-
-    /** Add Dealer */
-    static var addDealer = {
-            NSLocalizedString("addDealer", comment: "Add Dealer")}()
-
-    /** You must select a specific Shipping From Area */
-    static var youMustSelectASpecificShippingFromArea = {
-            NSLocalizedString("youMustSelectASpecificShippingFromArea", comment: "You must select a specific Shipping From Area")}()
-
-    /** Paid */
-    static var paid = {
-            NSLocalizedString("paid", comment: "Paid")}()
-
-    /** Supplier Inspection PDF */
-    static var supplierInspectionPdf = {
-            NSLocalizedString("supplierInspectionPdf", comment: "Supplier Inspection PDF")}()
-
-    /** Insurance Classification */
-    static var insuranceClassification = {
-            NSLocalizedString("insuranceClassification", comment: "Insurance Classification")}()
-
-    /** To Reinspect - PPU */
-    static var toReinspectPpu = {
-            NSLocalizedString("toReinspectPpu", comment: "To Reinspect - PPU")}()
-
-    /** Request Payment */
-    static var requestPayment = {
-            NSLocalizedString("requestPayment", comment: "Request Payment")}()
-
-    /** Would you like to mark this shipment as %@? */
-    static var wouldYouLikeToMarkThisShipmentAs = {
-            NSLocalizedString("wouldYouLikeToMarkThisShipmentAs", comment: "Would you like to mark this shipment as %@?")}()
-
-    /** Purchase price can be updated in vAuto. */
-    static var purchasePriceCanBeUpdatedInVauto = {
-            NSLocalizedString("purchasePriceCanBeUpdatedInVauto", comment: "Purchase price can be updated in vAuto.")}()
-
-    /** Purchase Price */
-    static var purchasePrice = {
-            NSLocalizedString("purchasePrice", comment: "Purchase Price")}()
-
-    /** Theft */
-    static var theft = {
-            NSLocalizedString("theft", comment: "Theft")}()
-
-    /** Reject */
-    static var reject = {
-            NSLocalizedString("reject", comment: "Reject")}()
-
-    /** Vandalism */
-    static var vandalism = {
-            NSLocalizedString("vandalism", comment: "Vandalism")}()
-
-    /** Shipment Filters */
-    static var shipmentFilters = {
-            NSLocalizedString("shipmentFilters", comment: "Shipment Filters")}()
-
-    /** Reinspection */
-    static var reinspection = {
-            NSLocalizedString("reinspection", comment: "Reinspection")}()
-
-    /** Title Front Image */
-    static var titleFrontImage = {
-            NSLocalizedString("titleFrontImage", comment: "Title Front Image")}()
-
-    /** COD */
-    static var cod = {
-            NSLocalizedString("cod", comment: "COD")}()
-
-    /** Manual */
-    static var manual = {
-            NSLocalizedString("manual", comment: "Manual")}()
-
-    /** Region */
-    static var region = {
-            NSLocalizedString("region", comment: "Region")}()
-
-    /** Save */
-    static var save = {
-            NSLocalizedString("save", comment: "Save")}()
-
-    /** New Shipping Company */
-    static var newShippingCompany = {
-            NSLocalizedString("newShippingCompany", comment: "New Shipping Company")}()
+    /** A AAA Displacement */
+    static var AAAADisplacement = {
+            NSLocalizedString("AAAADisplacement", comment: "A AAA Displacement")}()
 
     /** ASN Suppliers Not Available */
-    static var asnSuppliersNotAvailable = {
-            NSLocalizedString("asnSuppliersNotAvailable", comment: "ASN Suppliers Not Available")}()
-
-    /** New Supplying Location */
-    static var newSupplyingLocation = {
-            NSLocalizedString("newSupplyingLocation", comment: "New Supplying Location")}()
-
-    /** Inspector */
-    static var inspector = {
-            NSLocalizedString("inspector", comment: "Inspector")}()
-
-    /** Mileage Classification */
-    static var mileageClassification = {
-            NSLocalizedString("mileageClassification", comment: "Mileage Classification")}()
-
-    /** Phone Number */
-    static var phoneNumber = {
-            NSLocalizedString("phoneNumber", comment: "Phone Number")}()
-
-    /** Shipment Vehicles */
-    static var shipmentVehicles = {
-            NSLocalizedString("shipmentVehicles", comment: "Shipment Vehicles")}()
-
-    /** Search Processes */
-    static var searchProcesses = {
-            NSLocalizedString("searchProcesses", comment: "Search Processes")}()
-
-    /** The supplier does not have any email addresses. Please add one in the rebuilder tool. */
-    static var theSupplierDoesNotHaveAnyEmailAddressesPleaseAddOne = {
-            NSLocalizedString("theSupplierDoesNotHaveAnyEmailAddressesPleaseAddOne", comment: "The supplier does not have any email addresses. Please add one in the rebuilder tool.")}()
-
-    /** Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage. */
-    static var sellerAcknowledgesTheyWillWarrantyTheVehicleWhileTheVehicleIs = {
-            NSLocalizedString("sellerAcknowledgesTheyWillWarrantyTheVehicleWhileTheVehicleIs", comment: "Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage.")}()
-
-    /** Other Classification */
-    static var otherClassification = {
-            NSLocalizedString("otherClassification", comment: "Other Classification")}()
-
-    /** Edit Inspection */
-    static var editInspection = {
-            NSLocalizedString("editInspection", comment: "Edit Inspection")}()
-
-    /** State */
-    static var state = {
-            NSLocalizedString("state", comment: "State")}()
+    static var ASNSuppliersNotAvailable = {
+            NSLocalizedString("ASNSuppliersNotAvailable", comment: "ASN Suppliers Not Available")}()
 
     /** Abandoned Deal */
-    static var abandonedDeal = {
-            NSLocalizedString("abandonedDeal", comment: "Abandoned Deal")}()
+    static var AbandonedDeal = {
+            NSLocalizedString("AbandonedDeal", comment: "Abandoned Deal")}()
 
-    /** BOS Awaiting */
-    static var bosAwaiting = {
-            NSLocalizedString("bosAwaiting", comment: "BOS Awaiting")}()
+    /** Actual Mileage */
+    static var ActualMileage = {
+            NSLocalizedString("ActualMileage", comment: "Actual Mileage")}()
 
-    /** Clean */
-    static var clean = {
-            NSLocalizedString("clean", comment: "Clean")}()
-
-    /** No. of Units */
-    static var noOfUnits = {
-            NSLocalizedString("noOfUnits", comment: "No. of Units")}()
-
-    /** Quick Pay */
-    static var quickPay = {
-            NSLocalizedString("quickPay", comment: "Quick Pay")}()
-
-    /** Shipping From */
-    static var shippingFrom = {
-            NSLocalizedString("shippingFrom", comment: "Shipping From")}()
+    /** Add Dealer */
+    static var AddDealer = {
+            NSLocalizedString("AddDealer", comment: "Add Dealer")}()
 
     /** Add Note */
-    static var addNote = {
-            NSLocalizedString("addNote", comment: "Add Note")}()
-
-    /** Shipped To */
-    static var shippedTo = {
-            NSLocalizedString("shippedTo", comment: "Shipped To")}()
-
-    /** Vehicle Title */
-    static var vehicleTitle = {
-            NSLocalizedString("vehicleTitle", comment: "Vehicle Title")}()
-
-    /** No Price */
-    static var noPrice = {
-            NSLocalizedString("noPrice", comment: "No Price")}()
-
-    /** City/State/Zip */
-    static var citystatezip = {
-            NSLocalizedString("citystatezip", comment: "City/State/Zip")}()
-
-    /** Date */
-    static var date = {
-            NSLocalizedString("date", comment: "Date")}()
-
-    /** Net 15 */
-    static var net15 = {
-            NSLocalizedString("net15", comment: "Net 15")}()
-
-    /** Driver Phone Number */
-    static var driverPhoneNumber = {
-            NSLocalizedString("driverPhoneNumber", comment: "Driver Phone Number")}()
-
-    /** Note */
-    static var note = {
-            NSLocalizedString("note", comment: "Note")}()
-
-    /** Shipping Cost */
-    static var shippingCost = {
-            NSLocalizedString("shippingCost", comment: "Shipping Cost")}()
-
-    /** New Vehicle Information */
-    static var newVehicleInformation = {
-            NSLocalizedString("newVehicleInformation", comment: "New Vehicle Information")}()
-
-    /** Select Area */
-    static var selectArea = {
-            NSLocalizedString("selectArea", comment: "Select Area")}()
-
-    /** All Areas */
-    static var allAreas = {
-            NSLocalizedString("allAreas", comment: "All Areas")}()
-
-    /** Options */
-    static var options = {
-            NSLocalizedString("options", comment: "Options")}()
-
-    /** Select Region */
-    static var selectRegion = {
-            NSLocalizedString("selectRegion", comment: "Select Region")}()
-
-    /** Zip Code */
-    static var zipCode = {
-            NSLocalizedString("zipCode", comment: "Zip Code")}()
-
-    /** Cancel and abandon your changes? */
-    static var cancelAndAbandonYourChanges = {
-            NSLocalizedString("cancelAndAbandonYourChanges", comment: "Cancel and abandon your changes?")}()
-
-    /** Mileage */
-    static var mileage = {
-            NSLocalizedString("mileage", comment: "Mileage")}()
-
-    /** Dealer Address */
-    static var dealerAddress = {
-            NSLocalizedString("dealerAddress", comment: "Dealer Address")}()
-
-    /** Both */
-    static var both = {
-            NSLocalizedString("both", comment: "Both")}()
-
-    /** BOS */
-    static var bos = {
-            NSLocalizedString("bos", comment: "BOS")}()
-
-    /** Changing the area will remove all vehicles from this shipment */
-    static var changingTheAreaWillRemoveAllVehiclesFromThisShipment = {
-            NSLocalizedString("changingTheAreaWillRemoveAllVehiclesFromThisShipment", comment: "Changing the area will remove all vehicles from this shipment")}()
-
-    /** Request */
-    static var request = {
-            NSLocalizedString("request", comment: "Request")}()
-
-    /** Search Shipments */
-    static var searchShipments = {
-            NSLocalizedString("searchShipments", comment: "Search Shipments")}()
-
-    /** Bill of Sale In Person */
-    static var billOfSaleInPerson = {
-            NSLocalizedString("billOfSaleInPerson", comment: "Bill of Sale In Person")}()
-
-    /** Full Inspection PDF */
-    static var fullInspectionPdf = {
-            NSLocalizedString("fullInspectionPdf", comment: "Full Inspection PDF")}()
-
-    /** Burn */
-    static var burn = {
-            NSLocalizedString("burn", comment: "Burn")}()
-
-    /** Universal Search */
-    static var universalSearch = {
-            NSLocalizedString("universalSearch", comment: "Universal Search")}()
-
-    /** Searching */
-    static var searching = {
-            NSLocalizedString("searching", comment: "Searching")}()
-
-    /** Shipment Details */
-    static var shipmentDetails = {
-            NSLocalizedString("shipmentDetails", comment: "Shipment Details")}()
-
-    /** Parts Replaced/Repairs* */
-    static var partsReplacedrepairs = {
-            NSLocalizedString("partsReplacedrepairs", comment: "Parts Replaced/Repairs*")}()
-
-    /** Automatic */
-    static var automatic = {
-            NSLocalizedString("automatic", comment: "Automatic")}()
-
-    /** Inspection PDF */
-    static var inspectionPdf = {
-            NSLocalizedString("inspectionPdf", comment: "Inspection PDF")}()
-
-    /** Bill of Sale */
-    static var billOfSale = {
-            NSLocalizedString("billOfSale", comment: "Bill of Sale")}()
-
-    /** Edit Shipment Details */
-    static var editShipmentDetails = {
-            NSLocalizedString("editShipmentDetails", comment: "Edit Shipment Details")}()
-
-    /** Date Created */
-    static var dateCreated = {
-            NSLocalizedString("dateCreated", comment: "Date Created")}()
-
-    /** Shipping To */
-    static var shippingTo = {
-            NSLocalizedString("shippingTo", comment: "Shipping To")}()
-
-    /** Component does not apply */
-    static var componentDoesNotApply = {
-            NSLocalizedString("componentDoesNotApply", comment: "Component does not apply")}()
-
-    /** Report */
-    static var report = {
-            NSLocalizedString("report", comment: "Report")}()
-
-    /** To Reinspect @ ASM Shop */
-    static var toReinspectAsmShop = {
-            NSLocalizedString("toReinspectAsmShop", comment: "To Reinspect @ ASM Shop")}()
-
-    /** Advanced Filtering */
-    static var advancedFiltering = {
-            NSLocalizedString("advancedFiltering", comment: "Advanced Filtering")}()
-
-    /** Collect Signatures */
-    static var collectSignatures = {
-            NSLocalizedString("collectSignatures", comment: "Collect Signatures")}()
-
-    /** In Transit */
-    static var inTransit = {
-            NSLocalizedString("inTransit", comment: "In Transit")}()
-
-    /** Water Recovery */
-    static var waterRecovery = {
-            NSLocalizedString("waterRecovery", comment: "Water Recovery")}()
-
-    /** Shipping Notes */
-    static var shippingNotes = {
-            NSLocalizedString("shippingNotes", comment: "Shipping Notes")}()
-
-    /** BOS History */
-    static var bosHistory = {
-            NSLocalizedString("bosHistory", comment: "BOS History")}()
-
-    /** Back */
-    static var back = {
-            NSLocalizedString("back", comment: "Back")}()
-
-    /** Vehicle Not Approved */
-    static var vehicleNotApproved = {
-            NSLocalizedString("vehicleNotApproved", comment: "Vehicle Not Approved")}()
-
-    /** New Retail Location */
-    static var newRetailLocation = {
-            NSLocalizedString("newRetailLocation", comment: "New Retail Location")}()
-
-    /** Create */
-    static var create = {
-            NSLocalizedString("create", comment: "Create")}()
-
-    /** Initial */
-    static var initial = {
-            NSLocalizedString("initial", comment: "Initial")}()
-
-    /** Inspection Summary */
-    static var inspectionSummary = {
-            NSLocalizedString("inspectionSummary", comment: "Inspection Summary")}()
-
-    /** Loading Vehicles... */
-    static var loadingVehicles = {
-            NSLocalizedString("loadingVehicles", comment: "Loading Vehicles...")}()
-
-    /** Mark Arrived */
-    static var markArrived = {
-            NSLocalizedString("markArrived", comment: "Mark Arrived")}()
-
-    /** Are you sure you want to reject this inspection? */
-    static var areYouSureYouWantToRejectThisInspection = {
-            NSLocalizedString("areYouSureYouWantToRejectThisInspection", comment: "Are you sure you want to reject this inspection?")}()
-
-    /** Arrived */
-    static var arrived = {
-            NSLocalizedString("arrived", comment: "Arrived")}()
-
-    /** Bill of Lading Image 2 */
-    static var billOfLadingImage2 = {
-            NSLocalizedString("billOfLadingImage2", comment: "Bill of Lading Image 2")}()
-
-    /** Inspected */
-    static var inspected = {
-            NSLocalizedString("inspected", comment: "Inspected")}()
-
-    /** Update */
-    static var update = {
-            NSLocalizedString("update", comment: "Update")}()
-
-    /** The odometer you entered is more than 1000 miles different than the original. Is this correct? */
-    static var theOdometerYouEnteredIsMoreThan1000MilesDifferentThan = {
-            NSLocalizedString("theOdometerYouEnteredIsMoreThan1000MilesDifferentThan", comment: "The odometer you entered is more than 1000 miles different than the original. Is this correct?")}()
-
-    /** Bad Credentials */
-    static var badCredentials = {
-            NSLocalizedString("badCredentials", comment: "Bad Credentials")}()
-
-    /** VIN (Last 8) */
-    static var vinLast8 = {
-            NSLocalizedString("vinLast8", comment: "VIN (Last 8)")}()
-
-    /** Clear Filters */
-    static var clearFilters = {
-            NSLocalizedString("clearFilters", comment: "Clear Filters")}()
-
-    /** Reject Repair */
-    static var rejectRepair = {
-            NSLocalizedString("rejectRepair", comment: "Reject Repair")}()
-
-    /** Vehicle Information */
-    static var vehicleInformation = {
-            NSLocalizedString("vehicleInformation", comment: "Vehicle Information")}()
-
-    /** Edit Shipment Vehicles */
-    static var editShipmentVehicles = {
-            NSLocalizedString("editShipmentVehicles", comment: "Edit Shipment Vehicles")}()
-
-    /** Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order. */
-    static var sellerVerifiesVehicleHasBeenRepairedToTheManufacturersSpecificationsAnd = {
-            NSLocalizedString("sellerVerifiesVehicleHasBeenRepairedToTheManufacturersSpecificationsAnd", comment: "Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order.")}()
-
-    /** Needs Attention */
-    static var needsAttention = {
-            NSLocalizedString("needsAttention", comment: "Needs Attention")}()
-
-    /** Additional Image %lu */
-    static var additionalImageLu = {
-            NSLocalizedString("additionalImageLu", comment: "Additional Image %lu")}()
-
-    /** No results */
-    static var noResults = {
-            NSLocalizedString("noResults", comment: "No results")}()
-
-    /** Component is acceptable */
-    static var componentIsAcceptable = {
-            NSLocalizedString("componentIsAcceptable", comment: "Component is acceptable")}()
-
-    /** Seller */
-    static var seller = {
-            NSLocalizedString("seller", comment: "Seller")}()
-
-    /** Transmission Type */
-    static var transmissionType = {
-            NSLocalizedString("transmissionType", comment: "Transmission Type")}()
-
-    /** BOS Completed */
-    static var bosCompleted = {
-            NSLocalizedString("bosCompleted", comment: "BOS Completed")}()
-
-    /** View Bill of Lading */
-    static var viewBillOfLading = {
-            NSLocalizedString("viewBillOfLading", comment: "View Bill of Lading")}()
-
-    /** Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded. */
-    static var sellerAcknowledgesThatTheyWillNotGetPaidUntilTheVehicle = {
-            NSLocalizedString("sellerAcknowledgesThatTheyWillNotGetPaidUntilTheVehicle", comment: "Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded.")}()
-
-    /** Choose the preferred email address to receive the PDF */
-    static var chooseThePreferredEmailAddressToReceiveThePdf = {
-            NSLocalizedString("chooseThePreferredEmailAddressToReceiveThePdf", comment: "Choose the preferred email address to receive the PDF")}()
-
-    /** Bill of Lading */
-    static var billOfLading = {
-            NSLocalizedString("billOfLading", comment: "Bill of Lading")}()
-
-    /** VIN */
-    static var vin = {
-            NSLocalizedString("vin", comment: "VIN")}()
-
-    /** Engine Size */
-    static var engineSize = {
-            NSLocalizedString("engineSize", comment: "Engine Size")}()
-
-    /** Inspection Tool */
-    static var inspectionTool = {
-            NSLocalizedString("inspectionTool", comment: "Inspection Tool")}()
-
-    /** Legend */
-    static var legend = {
-            NSLocalizedString("legend", comment: "Legend")}()
-
-    /** Shipment Status */
-    static var shipmentStatus = {
-            NSLocalizedString("shipmentStatus", comment: "Shipment Status")}()
-
-    /** Are you sure? */
-    static var areYouSure = {
-            NSLocalizedString("areYouSure", comment: "Are you sure?")}()
-
-    /** Component needs further review */
-    static var componentNeedsFurtherReview = {
-            NSLocalizedString("componentNeedsFurtherReview", comment: "Component needs further review")}()
-
-    /** Name */
-    static var name = {
-            NSLocalizedString("name", comment: "Name")}()
-
-    /** Reset */
-    static var reset = {
-            NSLocalizedString("reset", comment: "Reset")}()
-
-    /** Inspection Overview */
-    static var inspectionOverview = {
-            NSLocalizedString("inspectionOverview", comment: "Inspection Overview")}()
-
-    /** All Regions */
-    static var allRegions = {
-            NSLocalizedString("allRegions", comment: "All Regions")}()
-
-    /** Edit Vehicles */
-    static var editVehicles = {
-            NSLocalizedString("editVehicles", comment: "Edit Vehicles")}()
-
-    /** Salvage */
-    static var salvage = {
-            NSLocalizedString("salvage", comment: "Salvage")}()
-
-    /** Edit */
-    static var edit = {
-            NSLocalizedString("edit", comment: "Edit")}()
-
-    /** Resend for Signatures */
-    static var resendForSignatures = {
-            NSLocalizedString("resendForSignatures", comment: "Resend for Signatures")}()
-
-    /** Submit */
-    static var submit = {
-            NSLocalizedString("submit", comment: "Submit")}()
-
-    /** Appraised Value */
-    static var appraisedValue = {
-            NSLocalizedString("appraisedValue", comment: "Appraised Value")}()
-
-    /** Not Actual Mileage */
-    static var notActualMileage = {
-            NSLocalizedString("notActualMileage", comment: "Not Actual Mileage")}()
-
-    /** Please Wait */
-    static var pleaseWait = {
-            NSLocalizedString("pleaseWait", comment: "Please Wait")}()
-
-    /** Title PDF */
-    static var titlePdf = {
-            NSLocalizedString("titlePdf", comment: "Title PDF")}()
-
-    /** Address Line 1 */
-    static var addressLine1 = {
-            NSLocalizedString("addressLine1", comment: "Address Line 1")}()
-
-    /** Edit Bill of Sale */
-    static var editBillOfSale = {
-            NSLocalizedString("editBillOfSale", comment: "Edit Bill of Sale")}()
-
-    /** Model */
-    static var model = {
-            NSLocalizedString("model", comment: "Model")}()
-
-    /** P/NADA */
-    static var pnada = {
-            NSLocalizedString("pnada", comment: "P/NADA")}()
-
-    /** Shipping Company */
-    static var shippingCompany = {
-            NSLocalizedString("shippingCompany", comment: "Shipping Company")}()
-
-    /** Apply Filters */
-    static var applyFilters = {
-            NSLocalizedString("applyFilters", comment: "Apply Filters")}()
-
-    /** Saved Photos */
-    static var savedPhotos = {
-            NSLocalizedString("savedPhotos", comment: "Saved Photos")}()
-
-    /** The vehicle information has not yet been imported. Enter some basic information about this vehicle. */
-    static var theVehicleInformationHasNotYetBeenImportedEnterSomeBasic = {
-            NSLocalizedString("theVehicleInformationHasNotYetBeenImportedEnterSomeBasic", comment: "The vehicle information has not yet been imported. Enter some basic information about this vehicle.")}()
-
-    /** Bill of Sale PDF */
-    static var billOfSalePdf = {
-            NSLocalizedString("billOfSalePdf", comment: "Bill of Sale PDF")}()
-
-    /** This user is not currently setup to use this app. */
-    static var thisUserIsNotCurrentlySetupToUseThisApp = {
-            NSLocalizedString("thisUserIsNotCurrentlySetupToUseThisApp", comment: "This user is not currently setup to use this app.")}()
-
-    /** Payment Initiated */
-    static var paymentInitiated = {
-            NSLocalizedString("paymentInitiated", comment: "Payment Initiated")}()
-
-    /** Comment */
-    static var comment = {
-            NSLocalizedString("comment", comment: "Comment")}()
-
-    /** Total Units */
-    static var totalUnits = {
-            NSLocalizedString("totalUnits", comment: "Total Units")}()
-
-    /** Retail Location */
-    static var retailLocation = {
-            NSLocalizedString("retailLocation", comment: "Retail Location")}()
-
-    /** Edit Title */
-    static var editTitle = {
-            NSLocalizedString("editTitle", comment: "Edit Title")}()
-
-    /** Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense. */
-    static var sellerAcknowledgesThatIfVehicleDoesNotSellAfter120Days = {
-            NSLocalizedString("sellerAcknowledgesThatIfVehicleDoesNotSellAfter120Days", comment: "Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense.")}()
-
-    /** N/A */
-    static var na = {
-            NSLocalizedString("na", comment: "N/A")}()
-
-    /** Saving... */
-    static var saving = {
-            NSLocalizedString("saving", comment: "Saving...")}()
-
-    /** Cancel */
-    static var cancel = {
-            NSLocalizedString("cancel", comment: "Cancel")}()
-
-    /** Shipping */
-    static var shipping = {
-            NSLocalizedString("shipping", comment: "Shipping")}()
-
-    /** Unauthorized */
-    static var unauthorized = {
-            NSLocalizedString("unauthorized", comment: "Unauthorized")}()
-
-    /** Other */
-    static var other = {
-            NSLocalizedString("other", comment: "Other")}()
-
-    /** Email */
-    static var email = {
-            NSLocalizedString("email", comment: "Email")}()
-
-    /** Vehicle Pending Approval */
-    static var vehiclePendingApproval = {
-            NSLocalizedString("vehiclePendingApproval", comment: "Vehicle Pending Approval")}()
-
-    /** BOS Not Approved */
-    static var bosNotApproved = {
-            NSLocalizedString("bosNotApproved", comment: "BOS Not Approved")}()
-
-    /** End: */
-    static var end = {
-            NSLocalizedString("end", comment: "End:")}()
-
-    /** Supplier Telephone */
-    static var supplierTelephone = {
-            NSLocalizedString("supplierTelephone", comment: "Supplier Telephone")}()
-
-    /** NADA Clean Trade */
-    static var nadaCleanTrade = {
-            NSLocalizedString("nadaCleanTrade", comment: "NADA Clean Trade")}()
-
-    /** Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto. */
-    static var editingIsAllowedForMileageAndSupplierOtherVehicleInformationShould = {
-            NSLocalizedString("editingIsAllowedForMileageAndSupplierOtherVehicleInformationShould", comment: "Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto.")}()
-
-    /** Supplier Name */
-    static var supplierName = {
-            NSLocalizedString("supplierName", comment: "Supplier Name")}()
-
-    /** Fail */
-    static var fail = {
-            NSLocalizedString("fail", comment: "Fail")}()
-
-    /** Confirm */
-    static var confirm = {
-            NSLocalizedString("confirm", comment: "Confirm")}()
-
-    /** Vehicle Import */
-    static var vehicleImport = {
-            NSLocalizedString("vehicleImport", comment: "Vehicle Import")}()
-
-    /** Error */
-    static var error = {
-            NSLocalizedString("error", comment: "Error")}()
+    static var AddNote = {
+            NSLocalizedString("AddNote", comment: "Add Note")}()
 
     /** Add Supplier */
-    static var addSupplier = {
-            NSLocalizedString("addSupplier", comment: "Add Supplier")}()
+    static var AddSupplier = {
+            NSLocalizedString("AddSupplier", comment: "Add Supplier")}()
 
-    /** Title */
-    static var title = {
-            NSLocalizedString("title", comment: "Title")}()
+    /** Additional Image %lu */
+    static var AdditionalImagelu = {
+            NSLocalizedString("AdditionalImagelu", comment: "Additional Image %lu")}()
 
-    /** Reason */
-    static var reason = {
-            NSLocalizedString("reason", comment: "Reason")}()
+    /** Address */
+    static var Address = {
+            NSLocalizedString("Address", comment: "Address")}()
 
-    /** Will the seller initial and sign the bill of sale in person? */
-    static var willTheSellerInitialAndSignTheBillOfSaleIn = {
-            NSLocalizedString("willTheSellerInitialAndSignTheBillOfSaleIn", comment: "Will the seller initial and sign the bill of sale in person?")}()
+    /** Address Line 1 */
+    static var AddressLine1 = {
+            NSLocalizedString("AddressLine1", comment: "Address Line 1")}()
 
-    /** Odometer Disclosure */
-    static var odometerDisclosure = {
-            NSLocalizedString("odometerDisclosure", comment: "Odometer Disclosure")}()
+    /** Address Line 2 */
+    static var AddressLine2 = {
+            NSLocalizedString("AddressLine2", comment: "Address Line 2")}()
 
-    /** This vehicle is missing information. Please go to vAuto and update this vehicle's information. */
-    static var thisVehicleIsMissingInformationPleaseGoToVautoAndUpdate = {
-            NSLocalizedString("thisVehicleIsMissingInformationPleaseGoToVautoAndUpdate", comment: "This vehicle is missing information. Please go to vAuto and update this vehicle's information.")}()
+    /** Advanced Filtering */
+    static var AdvancedFiltering = {
+            NSLocalizedString("AdvancedFiltering", comment: "Advanced Filtering")}()
 
-    /** Shipped Date */
-    static var shippedDate = {
-            NSLocalizedString("shippedDate", comment: "Shipped Date")}()
+    /** All Areas */
+    static var AllAreas = {
+            NSLocalizedString("AllAreas", comment: "All Areas")}()
 
-    /** Username */
-    static var username = {
-            NSLocalizedString("username", comment: "Username")}()
-
-    /** BOS Approved */
-    static var bosApproved = {
-            NSLocalizedString("bosApproved", comment: "BOS Approved")}()
-
-    /** Payment Request Form */
-    static var paymentRequestForm = {
-            NSLocalizedString("paymentRequestForm", comment: "Payment Request Form")}()
+    /** All Regions */
+    static var AllRegions = {
+            NSLocalizedString("AllRegions", comment: "All Regions")}()
 
     /** All Statuses */
-    static var allStatuses = {
-            NSLocalizedString("allStatuses", comment: "All Statuses")}()
+    static var AllStatuses = {
+            NSLocalizedString("AllStatuses", comment: "All Statuses")}()
 
-    /** Reject Inspection? */
-    static var rejectInspection = {
-            NSLocalizedString("rejectInspection", comment: "Reject Inspection?")}()
+    /** Apply Filters */
+    static var ApplyFilters = {
+            NSLocalizedString("ApplyFilters", comment: "Apply Filters")}()
 
-    /** No Results Found */
-    static var noResultsFound = {
-            NSLocalizedString("noResultsFound", comment: "No Results Found")}()
+    /** Appraised Value */
+    static var AppraisedValue = {
+            NSLocalizedString("AppraisedValue", comment: "Appraised Value")}()
 
-    /** Completed */
-    static var completed = {
-            NSLocalizedString("completed", comment: "Completed")}()
+    /** Area */
+    static var Area = {
+            NSLocalizedString("Area", comment: "Area")}()
 
-    /** Trim */
-    static var trim = {
-            NSLocalizedString("trim", comment: "Trim")}()
+    /** Are you sure? */
+    static var Areyousure = {
+            NSLocalizedString("Areyousure", comment: "Are you sure?")}()
 
-    /** Price Not Recognized as Currency */
-    static var priceNotRecognizedAsCurrency = {
-            NSLocalizedString("priceNotRecognizedAsCurrency", comment: "Price Not Recognized as Currency")}()
+    /** Are you sure you want to reject this inspection? */
+    static var Areyousureyouwanttorejectthisinspection = {
+            NSLocalizedString("Areyousureyouwanttorejectthisinspection", comment: "Are you sure you want to reject this inspection?")}()
 
-    /** No */
-    static var no = {
-            NSLocalizedString("no", comment: "No")}()
-
-    /** Driver Phone */
-    static var driverPhone = {
-            NSLocalizedString("driverPhone", comment: "Driver Phone")}()
-
-    /** OK */
-    static var ok = {
-            NSLocalizedString("ok", comment: "OK")}()
-
-    /** Please select a Shipping From Area */
-    static var pleaseSelectAShippingFromArea = {
-            NSLocalizedString("pleaseSelectAShippingFromArea", comment: "Please select a Shipping From Area")}()
-
-    /** Edit Vehicle Information */
-    static var editVehicleInformation = {
-            NSLocalizedString("editVehicleInformation", comment: "Edit Vehicle Information")}()
-
-    /** Rejected */
-    static var rejected = {
-            NSLocalizedString("rejected", comment: "Rejected")}()
-
-    /** Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first. */
-    static var sellerAcknowledgesTheyWillWarrantyAnyallPaintWorkDoneToThe = {
-            NSLocalizedString("sellerAcknowledgesTheyWillWarrantyAnyallPaintWorkDoneToThe", comment: "Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first.")}()
-
-    /** Phone Number must be valid */
-    static var phoneNumberMustBeValid = {
-            NSLocalizedString("phoneNumberMustBeValid", comment: "Phone Number must be valid")}()
-
-    /** Clear Note */
-    static var clearNote = {
-            NSLocalizedString("clearNote", comment: "Clear Note")}()
-
-    /** Retry */
-    static var retry = {
-            NSLocalizedString("retry", comment: "Retry")}()
-
-    /** Clear Photo */
-    static var clearPhoto = {
-            NSLocalizedString("clearPhoto", comment: "Clear Photo")}()
-
-    /** No Vehicles Selected */
-    static var noVehiclesSelected = {
-            NSLocalizedString("noVehiclesSelected", comment: "No Vehicles Selected")}()
-
-    /** Parts Replaced/Repaired */
-    static var partsReplacedrepaired = {
-            NSLocalizedString("partsReplacedrepaired", comment: "Parts Replaced/Repaired")}()
-
-    /** Full VIN or Last 8 of VIN */
-    static var fullVinOrLast8OfVin = {
-            NSLocalizedString("fullVinOrLast8OfVin", comment: "Full VIN or Last 8 of VIN")}()
-
-    /** Shipped On */
-    static var shippedOn = {
-            NSLocalizedString("shippedOn", comment: "Shipped On")}()
-
-    /** City */
-    static var city = {
-            NSLocalizedString("city", comment: "City")}()
-
-    /** Supplier Information: %1$@ */
-    static var supplierInformation1 = {
-            NSLocalizedString("supplierInformation1", comment: "Supplier Information: %1$@")}()
-
-    /** Authenticating */
-    static var authenticating = {
-            NSLocalizedString("authenticating", comment: "Authenticating")}()
-
-    /** Password */
-    static var password = {
-            NSLocalizedString("password", comment: "Password")}()
-
-    /** BOS Awaiting Signature */
-    static var bosAwaitingSignature = {
-            NSLocalizedString("bosAwaitingSignature", comment: "BOS Awaiting Signature")}()
-
-    /** Inspector Name */
-    static var inspectorName = {
-            NSLocalizedString("inspectorName", comment: "Inspector Name")}()
-
-    /** Pass */
-    static var pass = {
-            NSLocalizedString("pass", comment: "Pass")}()
-
-    /** First Inspection */
-    static var firstInspection = {
-            NSLocalizedString("firstInspection", comment: "First Inspection")}()
-
-    /** Login */
-    static var login = {
-            NSLocalizedString("login", comment: "Login")}()
-
-    /** Network Error */
-    static var networkError = {
-            NSLocalizedString("networkError", comment: "Network Error")}()
-
-    /** Pending */
-    static var pending = {
-            NSLocalizedString("pending", comment: "Pending")}()
-
-    /** Select Status */
-    static var selectStatus = {
-            NSLocalizedString("selectStatus", comment: "Select Status")}()
-
-    /** Vehicle Approved */
-    static var vehicleApproved = {
-            NSLocalizedString("vehicleApproved", comment: "Vehicle Approved")}()
-
-    /** Reinspection Count */
-    static var reinspectionCount = {
-            NSLocalizedString("reinspectionCount", comment: "Reinspection Count")}()
-
-    /** Status */
-    static var status = {
-            NSLocalizedString("status", comment: "Status")}()
+    /** Arrived */
+    static var Arrived = {
+            NSLocalizedString("Arrived", comment: "Arrived")}()
 
     /** Arrived Date */
-    static var arrivedDate = {
-            NSLocalizedString("arrivedDate", comment: "Arrived Date")}()
+    static var ArrivedDate = {
+            NSLocalizedString("ArrivedDate", comment: "Arrived Date")}()
 
-    /** Unreject */
-    static var unreject = {
-            NSLocalizedString("unreject", comment: "Unreject")}()
+    /** Authenticating */
+    static var Authenticating = {
+            NSLocalizedString("Authenticating", comment: "Authenticating")}()
 
-    /** Choose or add a dealer to system unless this is a one-off sale. */
-    static var chooseOrAddADealerToSystemUnlessThisIsA = {
-            NSLocalizedString("chooseOrAddADealerToSystemUnlessThisIsA", comment: "Choose or add a dealer to system unless this is a one-off sale.")}()
+    /** Automatic */
+    static var Automatic = {
+            NSLocalizedString("Automatic", comment: "Automatic")}()
 
-    /** Shipped From */
-    static var shippedFrom = {
-            NSLocalizedString("shippedFrom", comment: "Shipped From")}()
+    /** BOS */
+    static var BOS = {
+            NSLocalizedString("BOS", comment: "BOS")}()
 
-    /** Consignment */
-    static var consignment = {
-            NSLocalizedString("consignment", comment: "Consignment")}()
+    /** BOS Approved */
+    static var BOSApproved = {
+            NSLocalizedString("BOSApproved", comment: "BOS Approved")}()
 
-    /** Supplier Number */
-    static var supplierNumber = {
-            NSLocalizedString("supplierNumber", comment: "Supplier Number")}()
+    /** BOS Awaiting */
+    static var BOSAwaiting = {
+            NSLocalizedString("BOSAwaiting", comment: "BOS Awaiting")}()
 
-    /** Last known location */
-    static var lastKnownLocation = {
-            NSLocalizedString("lastKnownLocation", comment: "Last known location")}()
+    /** BOS Awaiting Signature */
+    static var BOSAwaitingSignature = {
+            NSLocalizedString("BOSAwaitingSignature", comment: "BOS Awaiting Signature")}()
 
-    /** Create Bill of Sale & Payment Request */
-    static var createBillOfSalePaymentRequest = {
-            NSLocalizedString("createBillOfSalePaymentRequest", comment: "Create Bill of Sale & Payment Request")}()
+    /** BOS Completed */
+    static var BOSCompleted = {
+            NSLocalizedString("BOSCompleted", comment: "BOS Completed")}()
 
-    /** Clear search and filter */
-    static var clearSearchAndFilter = {
-            NSLocalizedString("clearSearchAndFilter", comment: "Clear search and filter")}()
+    /** BOS History */
+    static var BOSHistory = {
+            NSLocalizedString("BOSHistory", comment: "BOS History")}()
 
-    /** Vehicle Filters */
-    static var vehicleFilters = {
-            NSLocalizedString("vehicleFilters", comment: "Vehicle Filters")}()
-
-    /** Payment */
-    static var payment = {
-            NSLocalizedString("payment", comment: "Payment")}()
-
-    /** Phone Number must be no more than 16 digits */
-    static var phoneNumberMustBeNoMoreThan16Digits = {
-            NSLocalizedString("phoneNumberMustBeNoMoreThan16Digits", comment: "Phone Number must be no more than 16 digits")}()
-
-    /** Settings */
-    static var settings = {
-            NSLocalizedString("settings", comment: "Settings")}()
-
-    /** Payment Method */
-    static var paymentMethod = {
-            NSLocalizedString("paymentMethod", comment: "Payment Method")}()
-
-    /** There was an error updating the title images. */
-    static var thereWasAnErrorUpdatingTheTitleImages = {
-            NSLocalizedString("thereWasAnErrorUpdatingTheTitleImages", comment: "There was an error updating the title images.")}()
-
-    /** Notes */
-    static var notes = {
-            NSLocalizedString("notes", comment: "Notes")}()
-
-    /** Review BOS */
-    static var reviewBos = {
-            NSLocalizedString("reviewBos", comment: "Review BOS")}()
+    /** BOS Not Approved */
+    static var BOSNotApproved = {
+            NSLocalizedString("BOSNotApproved", comment: "BOS Not Approved")}()
 
     /** BOS Pending Approval */
-    static var bosPendingApproval = {
-            NSLocalizedString("bosPendingApproval", comment: "BOS Pending Approval")}()
+    static var BOSPendingApproval = {
+            NSLocalizedString("BOSPendingApproval", comment: "BOS Pending Approval")}()
 
-    /** Specify other classification */
-    static var specifyOtherClassification = {
-            NSLocalizedString("specifyOtherClassification", comment: "Specify other classification")}()
+    /** Back */
+    static var Back = {
+            NSLocalizedString("Back", comment: "Back")}()
 
-    /** Seller Signature* */
-    static var sellerSignature = {
-            NSLocalizedString("sellerSignature", comment: "Seller Signature*")}()
+    /** Bad Credentials */
+    static var BadCredentials = {
+            NSLocalizedString("BadCredentials", comment: "Bad Credentials")}()
 
-    /** There can only be 10 vehicles per shipment */
-    static var thereCanOnlyBe10VehiclesPerShipment = {
-            NSLocalizedString("thereCanOnlyBe10VehiclesPerShipment", comment: "There can only be 10 vehicles per shipment")}()
+    /** Bank Account */
+    static var BankAccount = {
+            NSLocalizedString("BankAccount", comment: "Bank Account")}()
 
-    /** Seller Type */
-    static var sellerType = {
-            NSLocalizedString("sellerType", comment: "Seller Type")}()
+    /** Bill of Lading */
+    static var BillofLading = {
+            NSLocalizedString("BillofLading", comment: "Bill of Lading")}()
 
-    /** Warning */
-    static var warning = {
-            NSLocalizedString("warning", comment: "Warning")}()
+    /** Bill of Lading Image 1 */
+    static var BillofLadingImage1 = {
+            NSLocalizedString("BillofLadingImage1", comment: "Bill of Lading Image 1")}()
 
-    /** Photo Library */
-    static var photoLibrary = {
-            NSLocalizedString("photoLibrary", comment: "Photo Library")}()
+    /** Bill of Lading Image 2 */
+    static var BillofLadingImage2 = {
+            NSLocalizedString("BillofLadingImage2", comment: "Bill of Lading Image 2")}()
 
-    /** Drivetrain */
-    static var drivetrain = {
-            NSLocalizedString("drivetrain", comment: "Drivetrain")}()
+    /** Bill of Sale */
+    static var BillofSale = {
+            NSLocalizedString("BillofSale", comment: "Bill of Sale")}()
 
-    /** Dealer Purchase Agreement Terms */
-    static var dealerPurchaseAgreementTerms = {
-            NSLocalizedString("dealerPurchaseAgreementTerms", comment: "Dealer Purchase Agreement Terms")}()
+    /** Bill of Sale In Person */
+    static var BillofSaleInPerson = {
+            NSLocalizedString("BillofSaleInPerson", comment: "Bill of Sale In Person")}()
 
-    /** Phone */
-    static var phone = {
-            NSLocalizedString("phone", comment: "Phone")}()
-
-    /** Driver */
-    static var driver = {
-            NSLocalizedString("driver", comment: "Driver")}()
-
-    /** Odometer */
-    static var odometer = {
-            NSLocalizedString("odometer", comment: "Odometer")}()
-
-    /** Resend Bill of Sale for Signatures */
-    static var resendBillOfSaleForSignatures = {
-            NSLocalizedString("resendBillOfSaleForSignatures", comment: "Resend Bill of Sale for Signatures")}()
-
-    /** Supplier Email */
-    static var supplierEmail = {
-            NSLocalizedString("supplierEmail", comment: "Supplier Email")}()
+    /** Bill of Sale PDF */
+    static var BillofSalePDF = {
+            NSLocalizedString("BillofSalePDF", comment: "Bill of Sale PDF")}()
 
     /** Body Style */
-    static var bodyStyle = {
-            NSLocalizedString("bodyStyle", comment: "Body Style")}()
+    static var BodyStyle = {
+            NSLocalizedString("BodyStyle", comment: "Body Style")}()
+
+    /** Both */
+    static var Both = {
+            NSLocalizedString("Both", comment: "Both")}()
+
+    /** Burn */
+    static var Burn = {
+            NSLocalizedString("Burn", comment: "Burn")}()
+
+    /** Buyer Signature* */
+    static var BuyerSignature = {
+            NSLocalizedString("BuyerSignature", comment: "Buyer Signature*")}()
+
+    /** COD */
+    static var COD = {
+            NSLocalizedString("COD", comment: "COD")}()
+
+    /** Call configure first to set ViewModel. */
+    static var CallconfigurefirsttosetViewModel = {
+            NSLocalizedString("CallconfigurefirsttosetViewModel", comment: "Call configure first to set ViewModel.")}()
+
+    /** Cancel */
+    static var Cancel = {
+            NSLocalizedString("Cancel", comment: "Cancel")}()
+
+    /** Cancel and abandon your changes? */
+    static var Cancelandabandonyourchanges = {
+            NSLocalizedString("Cancelandabandonyourchanges", comment: "Cancel and abandon your changes?")}()
+
+    /** Changing the area will remove all vehicles from this shipment */
+    static var Changingtheareawillremoveallvehiclesfromthisshipment = {
+            NSLocalizedString("Changingtheareawillremoveallvehiclesfromthisshipment", comment: "Changing the area will remove all vehicles from this shipment")}()
+
+    /** Check Out */
+    static var CheckOut = {
+            NSLocalizedString("CheckOut", comment: "Check Out")}()
+
+    /** Checked Out */
+    static var CheckedOut = {
+            NSLocalizedString("CheckedOut", comment: "Checked Out")}()
+
+    /** Choose or add a dealer to system unless this is a one-off sale. */
+    static var Chooseoraddadealertosystemunlessthisisaoneoffsale = {
+            NSLocalizedString("Chooseoraddadealertosystemunlessthisisaoneoffsale", comment: "Choose or add a dealer to system unless this is a one-off sale.")}()
+
+    /** Choose the preferred email address to receive the PDF */
+    static var ChoosethepreferredemailaddresstoreceivethePDF = {
+            NSLocalizedString("ChoosethepreferredemailaddresstoreceivethePDF", comment: "Choose the preferred email address to receive the PDF")}()
+
+    /** City */
+    static var City = {
+            NSLocalizedString("City", comment: "City")}()
+
+    /** City/State/Zip */
+    static var CityStateZip = {
+            NSLocalizedString("CityStateZip", comment: "City/State/Zip")}()
+
+    /** Clean */
+    static var Clean = {
+            NSLocalizedString("Clean", comment: "Clean")}()
+
+    /** Clear Filters */
+    static var ClearFilters = {
+            NSLocalizedString("ClearFilters", comment: "Clear Filters")}()
+
+    /** Clear Note */
+    static var ClearNote = {
+            NSLocalizedString("ClearNote", comment: "Clear Note")}()
+
+    /** Clear Photo */
+    static var ClearPhoto = {
+            NSLocalizedString("ClearPhoto", comment: "Clear Photo")}()
+
+    /** Clear search and filter */
+    static var Clearsearchandfilter = {
+            NSLocalizedString("Clearsearchandfilter", comment: "Clear search and filter")}()
+
+    /** Close */
+    static var Close = {
+            NSLocalizedString("Close", comment: "Close")}()
+
+    /** Collect Signatures */
+    static var CollectSignatures = {
+            NSLocalizedString("CollectSignatures", comment: "Collect Signatures")}()
+
+    /** Collision */
+    static var Collision = {
+            NSLocalizedString("Collision", comment: "Collision")}()
+
+    /** Color */
+    static var Color = {
+            NSLocalizedString("Color", comment: "Color")}()
+
+    /** Comment */
+    static var Comment = {
+            NSLocalizedString("Comment", comment: "Comment")}()
+
+    /** Completed */
+    static var Completed = {
+            NSLocalizedString("Completed", comment: "Completed")}()
+
+    /** Component does not apply */
+    static var Componentdoesnotapply = {
+            NSLocalizedString("Componentdoesnotapply", comment: "Component does not apply")}()
+
+    /** Component has been acceptably repaired */
+    static var Componenthasbeenacceptablyrepaired = {
+            NSLocalizedString("Componenthasbeenacceptablyrepaired", comment: "Component has been acceptably repaired")}()
+
+    /** Component is acceptable */
+    static var Componentisacceptable = {
+            NSLocalizedString("Componentisacceptable", comment: "Component is acceptable")}()
+
+    /** Component is unacceptable */
+    static var Componentisunacceptable = {
+            NSLocalizedString("Componentisunacceptable", comment: "Component is unacceptable")}()
+
+    /** Component needs further review */
+    static var Componentneedsfurtherreview = {
+            NSLocalizedString("Componentneedsfurtherreview", comment: "Component needs further review")}()
+
+    /** Confirm */
+    static var Confirm = {
+            NSLocalizedString("Confirm", comment: "Confirm")}()
+
+    /** Consignment */
+    static var Consignment = {
+            NSLocalizedString("Consignment", comment: "Consignment")}()
+
+    /** Create */
+    static var Create = {
+            NSLocalizedString("Create", comment: "Create")}()
+
+    /** Create Bill of Sale */
+    static var CreateBillofSale = {
+            NSLocalizedString("CreateBillofSale", comment: "Create Bill of Sale")}()
+
+    /** Create Bill of Sale & Payment Request */
+    static var CreateBillofSalePaymentRequest = {
+            NSLocalizedString("CreateBillofSalePaymentRequest", comment: "Create Bill of Sale & Payment Request")}()
+
+    /** Create Shipment */
+    static var CreateShipment = {
+            NSLocalizedString("CreateShipment", comment: "Create Shipment")}()
+
+    /** Cylinders */
+    static var Cylinders = {
+            NSLocalizedString("Cylinders", comment: "Cylinders")}()
+
+    /** Date */
+    static var Date = {
+            NSLocalizedString("Date", comment: "Date")}()
+
+    /** Date Created */
+    static var DateCreated = {
+            NSLocalizedString("DateCreated", comment: "Date Created")}()
+
+    /** Dealer */
+    static var Dealer = {
+            NSLocalizedString("Dealer", comment: "Dealer")}()
+
+    /** Dealer Address */
+    static var DealerAddress = {
+            NSLocalizedString("DealerAddress", comment: "Dealer Address")}()
+
+    /** Dealer Consignment Agreement Terms* */
+    static var DealerConsignmentAgreementTerms = {
+            NSLocalizedString("DealerConsignmentAgreementTerms", comment: "Dealer Consignment Agreement Terms*")}()
+
+    /** Dealer Purchase Agreement Terms */
+    static var DealerPurchaseAgreementTerms = {
+            NSLocalizedString("DealerPurchaseAgreementTerms", comment: "Dealer Purchase Agreement Terms")}()
+
+    /** Driver */
+    static var Driver = {
+            NSLocalizedString("Driver", comment: "Driver")}()
 
     /** Driver Name */
-    static var driverName = {
-            NSLocalizedString("driverName", comment: "Driver Name")}()
+    static var DriverName = {
+            NSLocalizedString("DriverName", comment: "Driver Name")}()
+
+    /** Driver Phone */
+    static var DriverPhone = {
+            NSLocalizedString("DriverPhone", comment: "Driver Phone")}()
+
+    /** Driver Phone Number */
+    static var DriverPhoneNumber = {
+            NSLocalizedString("DriverPhoneNumber", comment: "Driver Phone Number")}()
+
+    /** Drivetrain */
+    static var Drivetrain = {
+            NSLocalizedString("Drivetrain", comment: "Drivetrain")}()
+
+    /** Edit */
+    static var Edit = {
+            NSLocalizedString("Edit", comment: "Edit")}()
+
+    /** Edit Bill of Sale */
+    static var EditBillofSale = {
+            NSLocalizedString("EditBillofSale", comment: "Edit Bill of Sale")}()
+
+    /** Edit Inspection */
+    static var EditInspection = {
+            NSLocalizedString("EditInspection", comment: "Edit Inspection")}()
+
+    /** Edit Shipment Details */
+    static var EditShipmentDetails = {
+            NSLocalizedString("EditShipmentDetails", comment: "Edit Shipment Details")}()
+
+    /** Edit Shipment Vehicles */
+    static var EditShipmentVehicles = {
+            NSLocalizedString("EditShipmentVehicles", comment: "Edit Shipment Vehicles")}()
+
+    /** Edit Title */
+    static var EditTitle = {
+            NSLocalizedString("EditTitle", comment: "Edit Title")}()
+
+    /** Edit Vehicle Information */
+    static var EditVehicleInformation = {
+            NSLocalizedString("EditVehicleInformation", comment: "Edit Vehicle Information")}()
+
+    /** Edit Vehicles */
+    static var EditVehicles = {
+            NSLocalizedString("EditVehicles", comment: "Edit Vehicles")}()
+
+    /** Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto. */
+    static var EditingisallowedformileageandsupplierOthervehicleinformationshouldbesetinvAuto = {
+            NSLocalizedString("EditingisallowedformileageandsupplierOthervehicleinformationshouldbesetinvAuto", comment: "Editing is allowed for mileage and supplier. Other vehicle information should be set in vAuto.")}()
+
+    /** Email */
+    static var Email = {
+            NSLocalizedString("Email", comment: "Email")}()
+
+    /** End: */
+    static var End = {
+            NSLocalizedString("End", comment: "End:")}()
+
+    /** Engine Size */
+    static var EngineSize = {
+            NSLocalizedString("EngineSize", comment: "Engine Size")}()
+
+    /** Error */
+    static var Error = {
+            NSLocalizedString("Error", comment: "Error")}()
+
+    /** Fail */
+    static var Fail = {
+            NSLocalizedString("Fail", comment: "Fail")}()
+
+    /** First Inspection */
+    static var FirstInspection = {
+            NSLocalizedString("FirstInspection", comment: "First Inspection")}()
+
+    /** Fixed */
+    static var Fixed = {
+            NSLocalizedString("Fixed", comment: "Fixed")}()
+
+    /** Front */
+    static var Front = {
+            NSLocalizedString("Front", comment: "Front")}()
+
+    /** Full Inspection PDF */
+    static var FullInspectionPDF = {
+            NSLocalizedString("FullInspectionPDF", comment: "Full Inspection PDF")}()
+
+    /** Full Purchase */
+    static var FullPurchase = {
+            NSLocalizedString("FullPurchase", comment: "Full Purchase")}()
+
+    /** Full VIN or Last 8 of VIN */
+    static var FullVINorLast8ofVIN = {
+            NSLocalizedString("FullVINorLast8ofVIN", comment: "Full VIN or Last 8 of VIN")}()
+
+    /** Hail Damage */
+    static var HailDamage = {
+            NSLocalizedString("HailDamage", comment: "Hail Damage")}()
+
+    /** Image Gallery */
+    static var ImageGallery = {
+            NSLocalizedString("ImageGallery", comment: "Image Gallery")}()
+
+    /** In Transit */
+    static var InTransit = {
+            NSLocalizedString("InTransit", comment: "In Transit")}()
+
+    /** Initial */
+    static var Initial = {
+            NSLocalizedString("Initial", comment: "Initial")}()
+
+    /** Inspected */
+    static var Inspected = {
+            NSLocalizedString("Inspected", comment: "Inspected")}()
+
+    /** Inspection Overview */
+    static var InspectionOverview = {
+            NSLocalizedString("InspectionOverview", comment: "Inspection Overview")}()
+
+    /** Inspection PDF */
+    static var InspectionPDF = {
+            NSLocalizedString("InspectionPDF", comment: "Inspection PDF")}()
+
+    /** Inspection Passed */
+    static var InspectionPassed = {
+            NSLocalizedString("InspectionPassed", comment: "Inspection Passed")}()
+
+    /** Inspection Summary */
+    static var InspectionSummary = {
+            NSLocalizedString("InspectionSummary", comment: "Inspection Summary")}()
+
+    /** Inspection Tool */
+    static var InspectionTool = {
+            NSLocalizedString("InspectionTool", comment: "Inspection Tool")}()
+
+    /** Inspector */
+    static var Inspector = {
+            NSLocalizedString("Inspector", comment: "Inspector")}()
+
+    /** Inspector Name */
+    static var InspectorName = {
+            NSLocalizedString("InspectorName", comment: "Inspector Name")}()
+
+    /** Install the ASN Suppliers tool in order to add Supplier information. */
+    static var InstalltheASNSupplierstoolinordertoaddSupplierinformation = {
+            NSLocalizedString("InstalltheASNSupplierstoolinordertoaddSupplierinformation", comment: "Install the ASN Suppliers tool in order to add Supplier information.")}()
+
+    /** Insurance Classification */
+    static var InsuranceClassification = {
+            NSLocalizedString("InsuranceClassification", comment: "Insurance Classification")}()
+
+    /** Last Modified */
+    static var LastModified = {
+            NSLocalizedString("LastModified", comment: "Last Modified")}()
+
+    /** Last known location */
+    static var Lastknownlocation = {
+            NSLocalizedString("Lastknownlocation", comment: "Last known location")}()
+
+    /** Legend */
+    static var Legend = {
+            NSLocalizedString("Legend", comment: "Legend")}()
+
+    /** Loading... */
+    static var Loading = {
+            NSLocalizedString("Loading", comment: "Loading...")}()
+
+    /** Loading Vehicles... */
+    static var LoadingVehicles = {
+            NSLocalizedString("LoadingVehicles", comment: "Loading Vehicles...")}()
+
+    /** Login */
+    static var Login = {
+            NSLocalizedString("Login", comment: "Login")}()
+
+    /** Logout */
+    static var Logout = {
+            NSLocalizedString("Logout", comment: "Logout")}()
+
+    /** Make */
+    static var Make = {
+            NSLocalizedString("Make", comment: "Make")}()
+
+    /** Manager */
+    static var Manager = {
+            NSLocalizedString("Manager", comment: "Manager")}()
+
+    /** Manual */
+    static var Manual = {
+            NSLocalizedString("Manual", comment: "Manual")}()
+
+    /** Mark Arrived */
+    static var MarkArrived = {
+            NSLocalizedString("MarkArrived", comment: "Mark Arrived")}()
+
+    /** Mark in Transit */
+    static var MarkinTransit = {
+            NSLocalizedString("MarkinTransit", comment: "Mark in Transit")}()
+
+    /** Mileage */
+    static var Mileage = {
+            NSLocalizedString("Mileage", comment: "Mileage")}()
+
+    /** Mileage Classification */
+    static var MileageClassification = {
+            NSLocalizedString("MileageClassification", comment: "Mileage Classification")}()
+
+    /** Model */
+    static var Model = {
+            NSLocalizedString("Model", comment: "Model")}()
+
+    /** N/A */
+    static var NA = {
+            NSLocalizedString("NA", comment: "N/A")}()
+
+    /** NADA Clean Trade */
+    static var NADACleanTrade = {
+            NSLocalizedString("NADACleanTrade", comment: "NADA Clean Trade")}()
+
+    /** Name */
+    static var Name = {
+            NSLocalizedString("Name", comment: "Name")}()
+
+    /** Needs Attention */
+    static var NeedsAttention = {
+            NSLocalizedString("NeedsAttention", comment: "Needs Attention")}()
+
+    /** Net 15 */
+    static var Net15 = {
+            NSLocalizedString("Net15", comment: "Net 15")}()
+
+    /** Network Error */
+    static var NetworkError = {
+            NSLocalizedString("NetworkError", comment: "Network Error")}()
+
+    /** New Retail Location */
+    static var NewRetailLocation = {
+            NSLocalizedString("NewRetailLocation", comment: "New Retail Location")}()
+
+    /** New Shipping Company */
+    static var NewShippingCompany = {
+            NSLocalizedString("NewShippingCompany", comment: "New Shipping Company")}()
+
+    /** New Supplying Location */
+    static var NewSupplyingLocation = {
+            NSLocalizedString("NewSupplyingLocation", comment: "New Supplying Location")}()
+
+    /** New Vehicle Information */
+    static var NewVehicleInformation = {
+            NSLocalizedString("NewVehicleInformation", comment: "New Vehicle Information")}()
+
+    /** No */
+    static var No = {
+            NSLocalizedString("No", comment: "No")}()
+
+    /** No Inspector */
+    static var NoInspector = {
+            NSLocalizedString("NoInspector", comment: "No Inspector")}()
+
+    /** No Price */
+    static var NoPrice = {
+            NSLocalizedString("NoPrice", comment: "No Price")}()
+
+    /** No Results Found */
+    static var NoResultsFound = {
+            NSLocalizedString("NoResultsFound", comment: "No Results Found")}()
+
+    /** No Vehicles Selected */
+    static var NoVehiclesSelected = {
+            NSLocalizedString("NoVehiclesSelected", comment: "No Vehicles Selected")}()
+
+    /** No inspections matched the specified criteria */
+    static var Noinspectionsmatchedthespecifiedcriteria = {
+            NSLocalizedString("Noinspectionsmatchedthespecifiedcriteria", comment: "No inspections matched the specified criteria")}()
+
+    /** No. of Units */
+    static var NoofUnits = {
+            NSLocalizedString("NoofUnits", comment: "No. of Units")}()
+
+    /** No results */
+    static var Noresults = {
+            NSLocalizedString("Noresults", comment: "No results")}()
+
+    /** Not Actual Mileage */
+    static var NotActualMileage = {
+            NSLocalizedString("NotActualMileage", comment: "Not Actual Mileage")}()
+
+    /** Note */
+    static var Note = {
+            NSLocalizedString("Note", comment: "Note")}()
+
+    /** Notes */
+    static var Notes = {
+            NSLocalizedString("Notes", comment: "Notes")}()
+
+    /** OK */
+    static var OK = {
+            NSLocalizedString("OK", comment: "OK")}()
+
+    /** Odometer */
+    static var Odometer = {
+            NSLocalizedString("Odometer", comment: "Odometer")}()
+
+    /** Odometer Disclosure */
+    static var OdometerDisclosure = {
+            NSLocalizedString("OdometerDisclosure", comment: "Odometer Disclosure")}()
+
+    /** Options */
+    static var Options = {
+            NSLocalizedString("Options", comment: "Options")}()
+
+    /** Other */
+    static var Other = {
+            NSLocalizedString("Other", comment: "Other")}()
+
+    /** Other Classification */
+    static var OtherClassification = {
+            NSLocalizedString("OtherClassification", comment: "Other Classification")}()
+
+    /** P/NADA */
+    static var PNADA = {
+            NSLocalizedString("PNADA", comment: "P/NADA")}()
+
+    /** Paid */
+    static var Paid = {
+            NSLocalizedString("Paid", comment: "Paid")}()
+
+    /** Parts Replaced/Repaired */
+    static var PartsReplacedRepaired = {
+            NSLocalizedString("PartsReplacedRepaired", comment: "Parts Replaced/Repaired")}()
+
+    /** Parts Replaced/Repairs* */
+    static var PartsReplacedRepairs = {
+            NSLocalizedString("PartsReplacedRepairs", comment: "Parts Replaced/Repairs*")}()
+
+    /** Pass */
+    static var Pass = {
+            NSLocalizedString("Pass", comment: "Pass")}()
+
+    /** Password */
+    static var Password = {
+            NSLocalizedString("Password", comment: "Password")}()
+
+    /** Payment */
+    static var Payment = {
+            NSLocalizedString("Payment", comment: "Payment")}()
+
+    /** Payment Initiated */
+    static var PaymentInitiated = {
+            NSLocalizedString("PaymentInitiated", comment: "Payment Initiated")}()
+
+    /** Payment Method */
+    static var PaymentMethod = {
+            NSLocalizedString("PaymentMethod", comment: "Payment Method")}()
+
+    /** Payment Request Form */
+    static var PaymentRequestForm = {
+            NSLocalizedString("PaymentRequestForm", comment: "Payment Request Form")}()
+
+    /** Payment Requested */
+    static var PaymentRequested = {
+            NSLocalizedString("PaymentRequested", comment: "Payment Requested")}()
+
+    /** Pending */
+    static var Pending = {
+            NSLocalizedString("Pending", comment: "Pending")}()
+
+    /** Phone */
+    static var Phone = {
+            NSLocalizedString("Phone", comment: "Phone")}()
+
+    /** Phone Number */
+    static var PhoneNumber = {
+            NSLocalizedString("PhoneNumber", comment: "Phone Number")}()
+
+    /** Phone Number must be no more than 16 digits */
+    static var PhoneNumbermustbenomorethan16digits = {
+            NSLocalizedString("PhoneNumbermustbenomorethan16digits", comment: "Phone Number must be no more than 16 digits")}()
+
+    /** Phone Number must be valid */
+    static var PhoneNumbermustbevalid = {
+            NSLocalizedString("PhoneNumbermustbevalid", comment: "Phone Number must be valid")}()
+
+    /** Photo Library */
+    static var PhotoLibrary = {
+            NSLocalizedString("PhotoLibrary", comment: "Photo Library")}()
+
+    /** Please Wait */
+    static var PleaseWait = {
+            NSLocalizedString("PleaseWait", comment: "Please Wait")}()
+
+    /** Please add as much information as possible about every part replaced and repair performed for this vehicle.  */
+    static var Pleaseaddasmuchinformationaspossibleabouteverypartreplacedandrepairperformedforthisvehicle = {
+            NSLocalizedString("Pleaseaddasmuchinformationaspossibleabouteverypartreplacedandrepairperformedforthisvehicle", comment: "Please add as much information as possible about every part replaced and repair performed for this vehicle. ")}()
+
+    /** Please select a Shipping From Area */
+    static var PleaseselectaShippingFromArea = {
+            NSLocalizedString("PleaseselectaShippingFromArea", comment: "Please select a Shipping From Area")}()
+
+    /** Preferred */
+    static var Preferred = {
+            NSLocalizedString("Preferred", comment: "Preferred")}()
+
+    /** Price Not Recognized as Currency */
+    static var PriceNotRecognizedasCurrency = {
+            NSLocalizedString("PriceNotRecognizedasCurrency", comment: "Price Not Recognized as Currency")}()
+
+    /** Purchase Price */
+    static var PurchasePrice = {
+            NSLocalizedString("PurchasePrice", comment: "Purchase Price")}()
+
+    /** Purchase price can be updated in vAuto. */
+    static var PurchasepricecanbeupdatedinvAuto = {
+            NSLocalizedString("PurchasepricecanbeupdatedinvAuto", comment: "Purchase price can be updated in vAuto.")}()
+
+    /** Quick Pay */
+    static var QuickPay = {
+            NSLocalizedString("QuickPay", comment: "Quick Pay")}()
+
+    /** Reason */
+    static var Reason = {
+            NSLocalizedString("Reason", comment: "Reason")}()
+
+    /** Region */
+    static var Region = {
+            NSLocalizedString("Region", comment: "Region")}()
+
+    /** Reinspection */
+    static var Reinspection = {
+            NSLocalizedString("Reinspection", comment: "Reinspection")}()
+
+    /** Reinspection Count */
+    static var ReinspectionCount = {
+            NSLocalizedString("ReinspectionCount", comment: "Reinspection Count")}()
+
+    /** Reject */
+    static var Reject = {
+            NSLocalizedString("Reject", comment: "Reject")}()
+
+    /** Reject Inspection? */
+    static var RejectInspection = {
+            NSLocalizedString("RejectInspection", comment: "Reject Inspection?")}()
+
+    /** Reject Repair */
+    static var RejectRepair = {
+            NSLocalizedString("RejectRepair", comment: "Reject Repair")}()
+
+    /** Rejected */
+    static var Rejected = {
+            NSLocalizedString("Rejected", comment: "Rejected")}()
+
+    /** Rejection Reason */
+    static var RejectionReason = {
+            NSLocalizedString("RejectionReason", comment: "Rejection Reason")}()
+
+    /** Report */
+    static var Report = {
+            NSLocalizedString("Report", comment: "Report")}()
+
+    /** Request */
+    static var Request = {
+            NSLocalizedString("Request", comment: "Request")}()
+
+    /** Request Payment */
+    static var RequestPayment = {
+            NSLocalizedString("RequestPayment", comment: "Request Payment")}()
+
+    /** Resend Bill of Sale for Signatures */
+    static var ResendBillofSaleforSignatures = {
+            NSLocalizedString("ResendBillofSaleforSignatures", comment: "Resend Bill of Sale for Signatures")}()
+
+    /** Resend for Signatures */
+    static var ResendforSignatures = {
+            NSLocalizedString("ResendforSignatures", comment: "Resend for Signatures")}()
+
+    /** Reset */
+    static var Reset = {
+            NSLocalizedString("Reset", comment: "Reset")}()
+
+    /** Retail Location */
+    static var RetailLocation = {
+            NSLocalizedString("RetailLocation", comment: "Retail Location")}()
+
+    /** Retake Images */
+    static var RetakeImages = {
+            NSLocalizedString("RetakeImages", comment: "Retake Images")}()
+
+    /** Retry */
+    static var Retry = {
+            NSLocalizedString("Retry", comment: "Retry")}()
+
+    /** Review BOS */
+    static var ReviewBOS = {
+            NSLocalizedString("ReviewBOS", comment: "Review BOS")}()
+
+    /** Salvage */
+    static var Salvage = {
+            NSLocalizedString("Salvage", comment: "Salvage")}()
+
+    /** Save */
+    static var Save = {
+            NSLocalizedString("Save", comment: "Save")}()
+
+    /** Saved Photos */
+    static var SavedPhotos = {
+            NSLocalizedString("SavedPhotos", comment: "Saved Photos")}()
+
+    /** Saving... */
+    static var Saving = {
+            NSLocalizedString("Saving", comment: "Saving...")}()
+
+    /** Search */
+    static var Search = {
+            NSLocalizedString("Search", comment: "Search")}()
+
+    /** Search Everywhere */
+    static var SearchEverywhere = {
+            NSLocalizedString("SearchEverywhere", comment: "Search Everywhere")}()
+
+    /** Search Processes */
+    static var SearchProcesses = {
+            NSLocalizedString("SearchProcesses", comment: "Search Processes")}()
+
+    /** Search Shipments */
+    static var SearchShipments = {
+            NSLocalizedString("SearchShipments", comment: "Search Shipments")}()
+
+    /** Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually. */
+    static var SearchforavehicleusingtheFullVINorLast8ofVINIfthevehicleisnotalreadyinthesystemyouwillbeabletoenterthedetailsmanually = {
+            NSLocalizedString("SearchforavehicleusingtheFullVINorLast8ofVINIfthevehicleisnotalreadyinthesystemyouwillbeabletoenterthedetailsmanually", comment: "Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually.")}()
+
+    /** Searching */
+    static var Searching = {
+            NSLocalizedString("Searching", comment: "Searching")}()
+
+    /** Select Area */
+    static var SelectArea = {
+            NSLocalizedString("SelectArea", comment: "Select Area")}()
+
+    /** Select Region */
+    static var SelectRegion = {
+            NSLocalizedString("SelectRegion", comment: "Select Region")}()
+
+    /** Select Status */
+    static var SelectStatus = {
+            NSLocalizedString("SelectStatus", comment: "Select Status")}()
+
+    /** Select Vehicle */
+    static var SelectVehicle = {
+            NSLocalizedString("SelectVehicle", comment: "Select Vehicle")}()
+
+    /** Select an Account */
+    static var SelectanAccount = {
+            NSLocalizedString("SelectanAccount", comment: "Select an Account")}()
+
+    /** Seller */
+    static var Seller = {
+            NSLocalizedString("Seller", comment: "Seller")}()
+
+    /** Seller Signature* */
+    static var SellerSignature = {
+            NSLocalizedString("SellerSignature", comment: "Seller Signature*")}()
+
+    /** Seller Type */
+    static var SellerType = {
+            NSLocalizedString("SellerType", comment: "Seller Type")}()
+
+    /** Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense. */
+    static var Selleracknowledgesthatifvehicledoesnotsellafter120daysonAutoSourceretaillotsthevehiclewillbeshippedbackattheSellersexpense = {
+            NSLocalizedString("Selleracknowledgesthatifvehicledoesnotsellafter120daysonAutoSourceretaillotsthevehiclewillbeshippedbackattheSellersexpense", comment: "Seller acknowledges that if vehicle does not sell after 120 days on AutoSource retail lots the vehicle will be shipped back at the Seller’s expense.")}()
+
+    /** Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded. */
+    static var SelleracknowledgesthattheywillnotgetpaiduntilthevehicleissoldAutoSourcehasbeenfullyfunded = {
+            NSLocalizedString("SelleracknowledgesthattheywillnotgetpaiduntilthevehicleissoldAutoSourcehasbeenfullyfunded", comment: "Seller acknowledges that they will not get paid until the vehicle is sold & AutoSource has been fully funded.")}()
+
+    /** Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office. */
+    static var SelleracknowledgestheywillberesponsibleforallshippingcostsincurredifthevehicleistobesentbackforanyreasonandwillpayAutoSourcebeforetheypickupthevehiclefromAutoSourceOffice = {
+            NSLocalizedString("SelleracknowledgestheywillberesponsibleforallshippingcostsincurredifthevehicleistobesentbackforanyreasonandwillpayAutoSourcebeforetheypickupthevehiclefromAutoSourceOffice", comment: "Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office.")}()
+
+    /** Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first. */
+    static var SelleracknowledgestheywillwarrantyanyallpaintworkdonetotheabovevehiclewhilethevehicleislocatedatoneofAutoSourcesdealershipsandforanadditional12monthsor12000milesfromAutoSourcesretaildateofsalewhicheveroccursfirst = {
+            NSLocalizedString("SelleracknowledgestheywillwarrantyanyallpaintworkdonetotheabovevehiclewhilethevehicleislocatedatoneofAutoSourcesdealershipsandforanadditional12monthsor12000milesfromAutoSourcesretaildateofsalewhicheveroccursfirst", comment: "Seller acknowledges they will warranty any/all paint work done to the above vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 12 months or 12,000 miles from AutoSource’s retail date of sale, whichever occurs first.")}()
+
+    /** Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage. */
+    static var SelleracknowledgestheywillwarrantythevehiclewhilethevehicleislocatedatoneofAutoSourcesdealershipsandforanadditional6monthsor6000milesfromAutoSourcesretaildateofsalewhicheveroccursfirstTheywillcoverallmajorcomponentsenginetransmissionelectricalmechanicalsystemsfuelsystemsheatingACsystemsetcplusanybreakdownsneededrepairsresultantfromasubstandardrepairorissuesresultingfrominitialdamage = {
+            NSLocalizedString("SelleracknowledgestheywillwarrantythevehiclewhilethevehicleislocatedatoneofAutoSourcesdealershipsandforanadditional6monthsor6000milesfromAutoSourcesretaildateofsalewhicheveroccursfirstTheywillcoverallmajorcomponentsenginetransmissionelectricalmechanicalsystemsfuelsystemsheatingACsystemsetcplusanybreakdownsneededrepairsresultantfromasubstandardrepairorissuesresultingfrominitialdamage", comment: "Seller acknowledges they will warranty the vehicle while the vehicle is located at one of AutoSource’s dealerships and for an additional 6 months or 6,000 miles from AutoSource’s retail date of sale, whichever occurs first. They will cover all major components (engine, transmission, electrical & mechanical systems, fuel systems, heating/AC systems, etc) plus any breakdowns/needed repairs resultant from a sub-standard repair or issues resulting from initial damage.")}()
+
+    /** Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order. */
+    static var SellerverifiesvehiclehasbeenrepairedtothemanufacturersspecificationsandallairbagsseatbeltsSRSsystemsequippedinthisvehicleareoriginalorhavebeenreplacedandarein100workingorder = {
+            NSLocalizedString("SellerverifiesvehiclehasbeenrepairedtothemanufacturersspecificationsandallairbagsseatbeltsSRSsystemsequippedinthisvehicleareoriginalorhavebeenreplacedandarein100workingorder", comment: "Seller verifies vehicle has been repaired to the manufacturer’s specifications and all airbags, seatbelts, & SRS systems equipped in this vehicle are original, or have been replaced and are in 100% working order.")}()
+
+    /** Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal. */
+    static var SellerwillneedtobeavailableviaphonephonenumberaboveduringAutoSourcebusinesshoursMonSat107pmforanyallretailcustomernegotiationsIfSellerdoesnotrespondviatextorcallAutoSourcecanlowertheircostupto500withouttheirpermissiontoconsummateanydeal = {
+            NSLocalizedString("SellerwillneedtobeavailableviaphonephonenumberaboveduringAutoSourcebusinesshoursMonSat107pmforanyallretailcustomernegotiationsIfSellerdoesnotrespondviatextorcallAutoSourcecanlowertheircostupto500withouttheirpermissiontoconsummateanydeal", comment: "Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal.")}()
+
+    /** Send to Supplier */
+    static var SendtoSupplier = {
+            NSLocalizedString("SendtoSupplier", comment: "Send to Supplier")}()
+
+    /** Settings */
+    static var Settings = {
+            NSLocalizedString("Settings", comment: "Settings")}()
+
+    /** Shipment Details */
+    static var ShipmentDetails = {
+            NSLocalizedString("ShipmentDetails", comment: "Shipment Details")}()
+
+    /** Shipment Filters */
+    static var ShipmentFilters = {
+            NSLocalizedString("ShipmentFilters", comment: "Shipment Filters")}()
+
+    /** Shipment Information */
+    static var ShipmentInformation = {
+            NSLocalizedString("ShipmentInformation", comment: "Shipment Information")}()
+
+    /** Shipment No - %@ */
+    static var ShipmentNo = {
+            NSLocalizedString("ShipmentNo", comment: "Shipment No - %@")}()
+
+    /** Shipment Status */
+    static var ShipmentStatus = {
+            NSLocalizedString("ShipmentStatus", comment: "Shipment Status")}()
+
+    /** Shipment Vehicles */
+    static var ShipmentVehicles = {
+            NSLocalizedString("ShipmentVehicles", comment: "Shipment Vehicles")}()
+
+    /** Shipments */
+    static var Shipments = {
+            NSLocalizedString("Shipments", comment: "Shipments")}()
+
+    /** Shipped Date */
+    static var ShippedDate = {
+            NSLocalizedString("ShippedDate", comment: "Shipped Date")}()
+
+    /** Shipped From */
+    static var ShippedFrom = {
+            NSLocalizedString("ShippedFrom", comment: "Shipped From")}()
+
+    /** Shipped On */
+    static var ShippedOn = {
+            NSLocalizedString("ShippedOn", comment: "Shipped On")}()
+
+    /** Shipped To */
+    static var ShippedTo = {
+            NSLocalizedString("ShippedTo", comment: "Shipped To")}()
+
+    /** Shipping */
+    static var Shipping = {
+            NSLocalizedString("Shipping", comment: "Shipping")}()
+
+    /** Shipping Company */
+    static var ShippingCompany = {
+            NSLocalizedString("ShippingCompany", comment: "Shipping Company")}()
+
+    /** Shipping Cost */
+    static var ShippingCost = {
+            NSLocalizedString("ShippingCost", comment: "Shipping Cost")}()
+
+    /** Shipping From */
+    static var ShippingFrom = {
+            NSLocalizedString("ShippingFrom", comment: "Shipping From")}()
+
+    /** Shipping Notes */
+    static var ShippingNotes = {
+            NSLocalizedString("ShippingNotes", comment: "Shipping Notes")}()
+
+    /** Shipping To */
+    static var ShippingTo = {
+            NSLocalizedString("ShippingTo", comment: "Shipping To")}()
+
+    /** Specify other classification */
+    static var Specifyotherclassification = {
+            NSLocalizedString("Specifyotherclassification", comment: "Specify other classification")}()
+
+    /** Start: */
+    static var Start = {
+            NSLocalizedString("Start", comment: "Start:")}()
+
+    /** State */
+    static var State = {
+            NSLocalizedString("State", comment: "State")}()
+
+    /** Status */
+    static var Status = {
+            NSLocalizedString("Status", comment: "Status")}()
+
+    /** Submit */
+    static var Submit = {
+            NSLocalizedString("Submit", comment: "Submit")}()
+
+    /** Submit BOS/PMT */
+    static var SubmitBOSPMT = {
+            NSLocalizedString("SubmitBOSPMT", comment: "Submit BOS/PMT")}()
+
+    /** Supplier */
+    static var Supplier = {
+            NSLocalizedString("Supplier", comment: "Supplier")}()
+
+    /** Supplier Email */
+    static var SupplierEmail = {
+            NSLocalizedString("SupplierEmail", comment: "Supplier Email")}()
+
+    /** Supplier Information: %1$@ */
+    static var SupplierInformation1 = {
+            NSLocalizedString("SupplierInformation1", comment: "Supplier Information: %1$@")}()
+
+    /** Supplier Inspection PDF */
+    static var SupplierInspectionPDF = {
+            NSLocalizedString("SupplierInspectionPDF", comment: "Supplier Inspection PDF")}()
+
+    /** Supplier Name */
+    static var SupplierName = {
+            NSLocalizedString("SupplierName", comment: "Supplier Name")}()
+
+    /** Supplier Number */
+    static var SupplierNumber = {
+            NSLocalizedString("SupplierNumber", comment: "Supplier Number")}()
+
+    /** Supplier Telephone */
+    static var SupplierTelephone = {
+            NSLocalizedString("SupplierTelephone", comment: "Supplier Telephone")}()
+
+    /** Supplying Location */
+    static var SupplyingLocation = {
+            NSLocalizedString("SupplyingLocation", comment: "Supplying Location")}()
+
+    /** Take photo */
+    static var Takephoto = {
+            NSLocalizedString("Takephoto", comment: "Take photo")}()
+
+    /** Theft */
+    static var Theft = {
+            NSLocalizedString("Theft", comment: "Theft")}()
+
+    /** The odometer you entered is more than 1000 miles different than the original. Is this correct? */
+    static var Theodometeryouenteredismorethan1000milesdifferentthantheoriginalIsthiscorrect = {
+            NSLocalizedString("Theodometeryouenteredismorethan1000milesdifferentthantheoriginalIsthiscorrect", comment: "The odometer you entered is more than 1000 miles different than the original. Is this correct?")}()
+
+    /** There can only be 10 vehicles per shipment */
+    static var Therecanonlybe10vehiclespershipment = {
+            NSLocalizedString("Therecanonlybe10vehiclespershipment", comment: "There can only be 10 vehicles per shipment")}()
+
+    /** There was an error updating the title images. */
+    static var Therewasanerrorupdatingthetitleimages = {
+            NSLocalizedString("Therewasanerrorupdatingthetitleimages", comment: "There was an error updating the title images.")}()
+
+    /** The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title. */
+    static var ThesellerverifiesthattheodometerstatedaboveisACTUALorNOTACTUALandwillberepresentedassuchcircledmileagetypeonthetitle = {
+            NSLocalizedString("ThesellerverifiesthattheodometerstatedaboveisACTUALorNOTACTUALandwillberepresentedassuchcircledmileagetypeonthetitle", comment: "The seller verifies that the odometer stated above is ACTUAL or NOT ACTUAL and will be represented as such circled mileage type on the title.")}()
+
+    /** The supplier does not have any email addresses. Please add one in the rebuilder tool. */
+    static var ThesupplierdoesnothaveanyemailaddressesPleaseaddoneintherebuildertool = {
+            NSLocalizedString("ThesupplierdoesnothaveanyemailaddressesPleaseaddoneintherebuildertool", comment: "The supplier does not have any email addresses. Please add one in the rebuilder tool.")}()
+
+    /** The vehicle information has not yet been imported. Enter some basic information about this vehicle. */
+    static var ThevehicleinformationhasnotyetbeenimportedEntersomebasicinformationaboutthisvehicle = {
+            NSLocalizedString("ThevehicleinformationhasnotyetbeenimportedEntersomebasicinformationaboutthisvehicle", comment: "The vehicle information has not yet been imported. Enter some basic information about this vehicle.")}()
+
+    /** This user is not currently setup to use this app. */
+    static var Thisuserisnotcurrentlysetuptousethisapp = {
+            NSLocalizedString("Thisuserisnotcurrentlysetuptousethisapp", comment: "This user is not currently setup to use this app.")}()
+
+    /** This vehicle is missing information. Please go to vAuto and update this vehicle's information. */
+    static var ThisvehicleismissinginformationPleasegotovAutoandupdatethisvehiclesinformation = {
+            NSLocalizedString("ThisvehicleismissinginformationPleasegotovAutoandupdatethisvehiclesinformation", comment: "This vehicle is missing information. Please go to vAuto and update this vehicle's information.")}()
+
+    /** Title */
+    static var Title = {
+            NSLocalizedString("Title", comment: "Title")}()
+
+    /** Title Back Image */
+    static var TitleBackImage = {
+            NSLocalizedString("TitleBackImage", comment: "Title Back Image")}()
+
+    /** Title Classification */
+    static var TitleClassification = {
+            NSLocalizedString("TitleClassification", comment: "Title Classification")}()
+
+    /** Title Front Image */
+    static var TitleFrontImage = {
+            NSLocalizedString("TitleFrontImage", comment: "Title Front Image")}()
+
+    /** Title History */
+    static var TitleHistory = {
+            NSLocalizedString("TitleHistory", comment: "Title History")}()
+
+    /** Title PDF */
+    static var TitlePDF = {
+            NSLocalizedString("TitlePDF", comment: "Title PDF")}()
+
+    /** To Reinspect @ ASM Shop */
+    static var ToReinspectASMShop = {
+            NSLocalizedString("ToReinspectASMShop", comment: "To Reinspect @ ASM Shop")}()
+
+    /** To Reinspect - PPU */
+    static var ToReinspectPPU = {
+            NSLocalizedString("ToReinspectPPU", comment: "To Reinspect - PPU")}()
+
+    /** To Reinspect @ Supplier */
+    static var ToReinspectSupplier = {
+            NSLocalizedString("ToReinspectSupplier", comment: "To Reinspect @ Supplier")}()
+
+    /** Total Units */
+    static var TotalUnits = {
+            NSLocalizedString("TotalUnits", comment: "Total Units")}()
+
+    /** Transmission Type */
+    static var TransmissionType = {
+            NSLocalizedString("TransmissionType", comment: "Transmission Type")}()
+
+    /** Trim */
+    static var Trim = {
+            NSLocalizedString("Trim", comment: "Trim")}()
+
+    /** Trim/Series */
+    static var TrimSeries = {
+            NSLocalizedString("TrimSeries", comment: "Trim/Series")}()
+
+    /** Unable to log in */
+    static var Unabletologin = {
+            NSLocalizedString("Unabletologin", comment: "Unable to log in")}()
+
+    /** Unauthorized */
+    static var Unauthorized = {
+            NSLocalizedString("Unauthorized", comment: "Unauthorized")}()
+
+    /** Universal Search */
+    static var UniversalSearch = {
+            NSLocalizedString("UniversalSearch", comment: "Universal Search")}()
+
+    /** Unreject */
+    static var Unreject = {
+            NSLocalizedString("Unreject", comment: "Unreject")}()
+
+    /** Update */
+    static var Update = {
+            NSLocalizedString("Update", comment: "Update")}()
+
+    /** Username */
+    static var Username = {
+            NSLocalizedString("Username", comment: "Username")}()
+
+    /** VIN */
+    static var VIN = {
+            NSLocalizedString("VIN", comment: "VIN")}()
+
+    /** VIN (Last 8) */
+    static var VINLast8 = {
+            NSLocalizedString("VINLast8", comment: "VIN (Last 8)")}()
+
+    /** Vandalism */
+    static var Vandalism = {
+            NSLocalizedString("Vandalism", comment: "Vandalism")}()
+
+    /** Vehicle Approved */
+    static var VehicleApproved = {
+            NSLocalizedString("VehicleApproved", comment: "Vehicle Approved")}()
+
+    /** Vehicle Filters */
+    static var VehicleFilters = {
+            NSLocalizedString("VehicleFilters", comment: "Vehicle Filters")}()
+
+    /** Vehicle Import */
+    static var VehicleImport = {
+            NSLocalizedString("VehicleImport", comment: "Vehicle Import")}()
+
+    /** Vehicle Information */
+    static var VehicleInformation = {
+            NSLocalizedString("VehicleInformation", comment: "Vehicle Information")}()
+
+    /** Vehicle Not Approved */
+    static var VehicleNotApproved = {
+            NSLocalizedString("VehicleNotApproved", comment: "Vehicle Not Approved")}()
+
+    /** Vehicle Pending Approval */
+    static var VehiclePendingApproval = {
+            NSLocalizedString("VehiclePendingApproval", comment: "Vehicle Pending Approval")}()
+
+    /** Vehicle Search */
+    static var VehicleSearch = {
+            NSLocalizedString("VehicleSearch", comment: "Vehicle Search")}()
+
+    /** Vehicle Title */
+    static var VehicleTitle = {
+            NSLocalizedString("VehicleTitle", comment: "Vehicle Title")}()
 
     /** Vehicle checked out by
 %1$@
@@ -1063,72 +1252,8 @@ enum R {
 %1$@ would lose any unsaved work.
 
 Proceed if you are sure you should. */
-    static var vehicleCheckedOutBy1231WouldLoseAnyUnsavedWorkproceedIfYou = {
-            NSLocalizedString("vehicleCheckedOutBy1231WouldLoseAnyUnsavedWorkproceedIfYou", comment: "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\n%1$@ would lose any unsaved work.\n\nProceed if you are sure you should.")}()
-
-    /** Search */
-    static var search = {
-            NSLocalizedString("search", comment: "Search")}()
-
-    /** Create Bill of Sale */
-    static var createBillOfSale = {
-            NSLocalizedString("createBillOfSale", comment: "Create Bill of Sale")}()
-
-    /** Color */
-    static var color = {
-            NSLocalizedString("color", comment: "Color")}()
-
-    /** Last Modified */
-    static var lastModified = {
-            NSLocalizedString("lastModified", comment: "Last Modified")}()
-
-    /** Zip Code must be between 5 and 10 digits */
-    static var zipCodeMustBeBetween5And10Digits = {
-            NSLocalizedString("zipCodeMustBeBetween5And10Digits", comment: "Zip Code must be between 5 and 10 digits")}()
-
-    /** Front */
-    static var front = {
-            NSLocalizedString("front", comment: "Front")}()
-
-    /** Title History */
-    static var titleHistory = {
-            NSLocalizedString("titleHistory", comment: "Title History")}()
-
-    /** Area */
-    static var area = {
-            NSLocalizedString("area", comment: "Area")}()
-
-    /** Year */
-    static var year = {
-            NSLocalizedString("year", comment: "Year")}()
-
-    /** Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually. */
-    static var searchForAVehicleUsingTheFullVinOrLast8 = {
-            NSLocalizedString("searchForAVehicleUsingTheFullVinOrLast8", comment: "Search for a vehicle using the Full VIN or Last 8 of VIN. If the vehicle is not already in the system you will be able to enter the details manually.")}()
-
-    /** Bill of Lading Image 1 */
-    static var billOfLadingImage1 = {
-            NSLocalizedString("billOfLadingImage1", comment: "Bill of Lading Image 1")}()
-
-    /** Title Back Image */
-    static var titleBackImage = {
-            NSLocalizedString("titleBackImage", comment: "Title Back Image")}()
-
-    /** Take photo */
-    static var takePhoto = {
-            NSLocalizedString("takePhoto", comment: "Take photo")}()
-
-    /** Buyer Signature* */
-    static var buyerSignature = {
-            NSLocalizedString("buyerSignature", comment: "Buyer Signature*")}()
-
-    /** Close */
-    static var close = {
-            NSLocalizedString("close", comment: "Close")}()
-
-    /** Select an Account */
-    static var selectAnAccount = {
-            NSLocalizedString("selectAnAccount", comment: "Select an Account")}()
+    static var Vehiclecheckedoutby1231wouldloseanyunsavedworkProceedifyouaresureyoushould = {
+            NSLocalizedString("Vehiclecheckedoutby1231wouldloseanyunsavedworkProceedifyouaresureyoushould", comment: "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\n%1$@ would lose any unsaved work.\n\nProceed if you are sure you should.")}()
 
     /** Vehicle checked out by
 %1$@
@@ -1136,171 +1261,63 @@ Proceed if you are sure you should. */
 %3$@
 
 Please contact %1$@ before continuing or try again in a moment. */
-    static var vehicleCheckedOutBy123PleaseContact1BeforeContinuingOrTryAgain = {
-            NSLocalizedString("vehicleCheckedOutBy123PleaseContact1BeforeContinuingOrTryAgain", comment: "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\nPlease contact %1$@ before continuing or try again in a moment.")}()
+    static var Vehiclecheckedoutby123Pleasecontact1beforecontinuingortryagaininamoment = {
+            NSLocalizedString("Vehiclecheckedoutby123Pleasecontact1beforecontinuingortryagaininamoment", comment: "Vehicle checked out by\n%1$@\n%2$@\n%3$@\n\nPlease contact %1$@ before continuing or try again in a moment.")}()
 
-    /** Trim/Series */
-    static var trimseries = {
-            NSLocalizedString("trimseries", comment: "Trim/Series")}()
+    /** View Bill of Lading */
+    static var ViewBillofLading = {
+            NSLocalizedString("ViewBillofLading", comment: "View Bill of Lading")}()
 
-    /** Your changes will be lost */
-    static var yourChangesWillBeLost = {
-            NSLocalizedString("yourChangesWillBeLost", comment: "Your changes will be lost")}()
+    /** Warning */
+    static var Warning = {
+            NSLocalizedString("Warning", comment: "Warning")}()
 
-    /** Cylinders */
-    static var cylinders = {
-            NSLocalizedString("cylinders", comment: "Cylinders")}()
+    /** Water Recovery */
+    static var WaterRecovery = {
+            NSLocalizedString("WaterRecovery", comment: "Water Recovery")}()
 
-    /** Shipment No - %@ */
-    static var shipmentNo = {
-            NSLocalizedString("shipmentNo", comment: "Shipment No - %@")}()
+    /** Will the seller initial and sign the bill of sale in person? */
+    static var Willthesellerinitialandsignthebillofsaleinperson = {
+            NSLocalizedString("Willthesellerinitialandsignthebillofsaleinperson", comment: "Will the seller initial and sign the bill of sale in person?")}()
 
-    /** Create Shipment */
-    static var createShipment = {
-            NSLocalizedString("createShipment", comment: "Create Shipment")}()
+    /** Would you like to mark this shipment as %@? */
+    static var Wouldyouliketomarkthisshipmentas = {
+            NSLocalizedString("Wouldyouliketomarkthisshipmentas", comment: "Would you like to mark this shipment as %@?")}()
 
-    /** Supplying Location */
-    static var supplyingLocation = {
-            NSLocalizedString("supplyingLocation", comment: "Supplying Location")}()
-
-    /** Component is unacceptable */
-    static var componentIsUnacceptable = {
-            NSLocalizedString("componentIsUnacceptable", comment: "Component is unacceptable")}()
-
-    /** Make */
-    static var make = {
-            NSLocalizedString("make", comment: "Make")}()
-
-    /** Hail Damage */
-    static var hailDamage = {
-            NSLocalizedString("hailDamage", comment: "Hail Damage")}()
-
-    /** Component has been acceptably repaired */
-    static var componentHasBeenAcceptablyRepaired = {
-            NSLocalizedString("componentHasBeenAcceptablyRepaired", comment: "Component has been acceptably repaired")}()
-
-    /** Fixed */
-    static var fixed = {
-            NSLocalizedString("fixed", comment: "Fixed")}()
-
-    /** Send to Supplier */
-    static var sendToSupplier = {
-            NSLocalizedString("sendToSupplier", comment: "Send to Supplier")}()
-
-    /** Actual Mileage */
-    static var actualMileage = {
-            NSLocalizedString("actualMileage", comment: "Actual Mileage")}()
-
-    /** Shipments */
-    static var shipments = {
-            NSLocalizedString("shipments", comment: "Shipments")}()
-
-    /** No inspections matched the specified criteria */
-    static var noInspectionsMatchedTheSpecifiedCriteria = {
-            NSLocalizedString("noInspectionsMatchedTheSpecifiedCriteria", comment: "No inspections matched the specified criteria")}()
-
-    /** Address */
-    static var address = {
-            NSLocalizedString("address", comment: "Address")}()
-
-    /** Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office. */
-    static var sellerAcknowledgesTheyWillBeResponsibleForAllShippingCostsIncurred = {
-            NSLocalizedString("sellerAcknowledgesTheyWillBeResponsibleForAllShippingCostsIncurred", comment: "Seller acknowledges they will be responsible for all shipping costs incurred if the vehicle is to be sent back for any reason, and will pay AutoSource before they pick up the vehicle from AutoSource Office.")}()
-
-    /** Install the ASN Suppliers tool in order to add Supplier information. */
-    static var installTheAsnSuppliersToolInOrderToAddSupplierInformation = {
-            NSLocalizedString("installTheAsnSuppliersToolInOrderToAddSupplierInformation", comment: "Install the ASN Suppliers tool in order to add Supplier information.")}()
-
-    /** Submit BOS/PMT */
-    static var submitBospmt = {
-            NSLocalizedString("submitBospmt", comment: "Submit BOS/PMT")}()
-
-    /** Collision */
-    static var collision = {
-            NSLocalizedString("collision", comment: "Collision")}()
-
-    /** Inspection Passed */
-    static var inspectionPassed = {
-            NSLocalizedString("inspectionPassed", comment: "Inspection Passed")}()
-
-    /** Bank Account */
-    static var bankAccount = {
-            NSLocalizedString("bankAccount", comment: "Bank Account")}()
-
-    /** To Reinspect @ Supplier */
-    static var toReinspectSupplier = {
-            NSLocalizedString("toReinspectSupplier", comment: "To Reinspect @ Supplier")}()
-
-    /** Retake Images */
-    static var retakeImages = {
-            NSLocalizedString("retakeImages", comment: "Retake Images")}()
-
-    /** Select Vehicle */
-    static var selectVehicle = {
-            NSLocalizedString("selectVehicle", comment: "Select Vehicle")}()
-
-    /** Title Classification */
-    static var titleClassification = {
-            NSLocalizedString("titleClassification", comment: "Title Classification")}()
-
-    /** Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal. */
-    static var sellerWillNeedToBeAvailableViaPhonePhoneNumberAbove = {
-            NSLocalizedString("sellerWillNeedToBeAvailableViaPhonePhoneNumberAbove", comment: "Seller will need to be available via phone (phone number above) during AutoSource business hours Mon-Sat 10-7pm for any/all retail customer negotiations. If Seller does not respond via text or call, AutoSource can lower their cost up to $500 without their permission to consummate any deal.")}()
-
-    /** Address Line 2 */
-    static var addressLine2 = {
-            NSLocalizedString("addressLine2", comment: "Address Line 2")}()
-
-    /** No Inspector */
-    static var noInspector = {
-            NSLocalizedString("noInspector", comment: "No Inspector")}()
-
-    /** Logout */
-    static var logout = {
-            NSLocalizedString("logout", comment: "Logout")}()
-
-    /** * denotes preferred account */
-    static var denotesPreferredAccount = {
-            NSLocalizedString("denotesPreferredAccount", comment: "* denotes preferred account")}()
-
-    /** Mark in Transit */
-    static var markInTransit = {
-            NSLocalizedString("markInTransit", comment: "Mark in Transit")}()
-
-    /** Loading... */
-    static var loading = {
-            NSLocalizedString("loading", comment: "Loading...")}()
-
-    /** Rejection Reason */
-    static var rejectionReason = {
-            NSLocalizedString("rejectionReason", comment: "Rejection Reason")}()
-
-    /** Full Purchase */
-    static var fullPurchase = {
-            NSLocalizedString("fullPurchase", comment: "Full Purchase")}()
-
-    /** Search Everywhere */
-    static var searchEverywhere = {
-            NSLocalizedString("searchEverywhere", comment: "Search Everywhere")}()
-
-    /** Check Out */
-    static var checkOut = {
-            NSLocalizedString("checkOut", comment: "Check Out")}()
-
-    /** Preferred */
-    static var preferred = {
-            NSLocalizedString("preferred", comment: "Preferred")}()
-
-    /** Payment Requested */
-    static var paymentRequested = {
-            NSLocalizedString("paymentRequested", comment: "Payment Requested")}()
-
-    /** Dealer */
-    static var dealer = {
-            NSLocalizedString("dealer", comment: "Dealer")}()
+    /** Year */
+    static var Year = {
+            NSLocalizedString("Year", comment: "Year")}()
 
     /** Yes */
-    static var yes = {
-            NSLocalizedString("yes", comment: "Yes")}()
+    static var Yes = {
+            NSLocalizedString("Yes", comment: "Yes")}()
+
+    /** You must select a specific Shipping From Area */
+    static var YoumustselectaspecificShippingFromArea = {
+            NSLocalizedString("YoumustselectaspecificShippingFromArea", comment: "You must select a specific Shipping From Area")}()
+
+    /** Your changes will be lost */
+    static var Yourchangeswillbelost = {
+            NSLocalizedString("Yourchangeswillbelost", comment: "Your changes will be lost")}()
+
+    /** Zip Code */
+    static var ZipCode = {
+            NSLocalizedString("ZipCode", comment: "Zip Code")}()
+
+    /** Zip Code must be between 5 and 10 digits */
+    static var ZipCodemustbebetween5and10digits = {
+            NSLocalizedString("ZipCodemustbebetween5and10digits", comment: "Zip Code must be between 5 and 10 digits")}()
+
+    /** call Configure First To Set Viewmodel */
+    static var callConfigureFirstToSetViewmodel = {
+            NSLocalizedString("callConfigureFirstToSetViewmodel", comment: "call Configure First To Set Viewmodel")}()
+
+    /** * denotes preferred account */
+    static var denotespreferredaccount = {
+            NSLocalizedString("denotespreferredaccount", comment: "* denotes preferred account")}()
+
+    /** image Gallery */
+    static var imageGallery = {
+            NSLocalizedString("imageGallery", comment: "image Gallery")}()
 
 }

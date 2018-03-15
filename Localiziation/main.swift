@@ -9,10 +9,12 @@
 
 import Foundation
 
-var pathToProject: String = "Locolization/"
+//SET PATHS TO YOUR PROJECT FILES
+var pathToProject: String = "/Locolization/"
 var sourceFilePath: String = "Localiziation/Localizable.strings"
 var destinationFilePath: String = "Localiziation/temp.strings"
 var resourceFilePath: String = "Localiziation/Resources.swift"
+
 
 func getValue() {
     let value = needCustomKey[0]
@@ -39,20 +41,20 @@ func containsColin(_ string: String) -> Bool {
 }
 
 // MARK: Setup
-print("""
-    Please enter the path to your project.
-    """, terminator: "")
-pathToProject = readLine()!
-
-print("""
-    Please enter the path from your project base directory to your destination file.
-    """, terminator: "")
-sourceFilePath = readLine()!
-
-print("""
-    Please enter the path from your project base directory to your to your Resource file.
-    """, terminator: "")
-resourceFilePath = readLine()!
+//print("""
+//    Please enter the path to your project.
+//    """, terminator: "")
+//pathToProject = readLine()!
+//
+//print("""
+//    Please enter the path from your project base directory to your destination file.
+//    """, terminator: "")
+//sourceFilePath = readLine()!
+//
+//print("""
+//    Please enter the path from your project base directory to your to your Resource file.
+//    """, terminator: "")
+//resourceFilePath = readLine()!
 
 // MARK: Options
 print("""
@@ -61,6 +63,8 @@ print("""
     2) Add new entry with specified key
     3) Generate Resources
     4) Generate Strings
+    5) Generate Strings Sorted by Value not Key
+    6) Find Strings in file
 
     """, terminator: "")
 let answer = readLine()!
@@ -102,5 +106,15 @@ if answer == "4" {
     generateNewStringsFile()
 }
 
+if answer == "5" {
+    generateNewStringsSortedByKeyFile()
+}
 
+if answer == "6" {
+    print("""
+    What is the full path to the file you would like to convert
 
+    """, terminator: "")
+    let filePath = readLine()!
+    findUnlocalisedStringsAndConvertThem(filePath)
+}
