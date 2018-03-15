@@ -196,10 +196,6 @@ enum R {
     static var COD = {
             NSLocalizedString("COD", comment: "COD")}()
 
-    /** Call configure first to set ViewModel. */
-    static var CallconfigurefirsttosetViewModel = {
-            NSLocalizedString("CallconfigurefirsttosetViewModel", comment: "Call configure first to set ViewModel.")}()
-
     /** Cancel */
     static var Cancel = {
             NSLocalizedString("Cancel", comment: "Cancel")}()

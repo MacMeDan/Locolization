@@ -23,16 +23,27 @@ func convertToResourceRef(_ input: String) -> String {
     return "R.\(input.camelCased)"
 }
 
+let ignoreLinesContaining:[String] = ["assert", "fatalError"]
+
+func checkIgnoredValues(value: String) -> Bool {
+    var result: Bool = false
+    ignoreLinesContaining.forEach {
+        if value.contains($0) {
+            result = true
+        }
+    }
+    return result
+}
+
 func findUnlocalisedStringsAndConvertThem(fromFilePath: String) {
         do {
             let data = try String(contentsOf: projectDirectory.appendingPathComponents(fromFilePath.components(separatedBy: "/")), encoding: .utf8)
             let myStrings = data.components(separatedBy: .newlines)
-            let converted: [String] = myStrings.map {
-                if $0.contains("fatalError") {
-                    //Bail out if the string should not be locolised.
-                    return $0
+            let converted: [String] = myStrings.map { line in
+                if checkIgnoredValues(value: line) {
+                    return line
                 }
-                    var components = $0.components(separatedBy: "\"")
+                    var components = line.components(separatedBy: "\"")
                     for item in 0...components.count-1 {
                         if item % 2 == 1 {
                             components[item] = convertToResourceRef(components[item])

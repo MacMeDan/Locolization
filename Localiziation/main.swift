@@ -116,5 +116,5 @@ if answer == "6" {
 
     """, terminator: "")
     let filePath = readLine()!
-    findUnlocalisedStringsAndConvertThem(filePath)
+    findUnlocalisedStringsAndConvertThem(fromFilePath: filePath)
 }
